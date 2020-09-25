@@ -1,0 +1,36 @@
+@import "../../../../../styles/variables";
+
+.error,
+.count {
+  margin: 0 $gutter-half $gutter-half 0;
+  background: $black-transparent;
+  text-align: center;
+  padding: $gutter-half 120px - 32px - $gutter-half * 2 $gutter-half 0;
+}
+
+.error {
+  color: $red;
+}
+
+.content {
+  height: calc(100% - 33px);
+  padding-top: $gutter;
+
+  .results {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    height: 100%;
+    box-shadow: inset 0px -100px 200px -200px #000;    
+  }
+}
+
+.result {
+  display: flex;
+
+  & + .result,
+  & + .error {
+    margin-top: $gutter-half;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,491 @@
+{
+	"annotation": {
+		"bookmarks": {
+			"message": "Opens a webpage on hotkey press in the in-game browser.\n\nTry the hotkey below to open poe.ninja.",
+			"title": "Bookmarks"
+		},
+		"changelog-1-0-11": {
+			"message": "- added heist item data & stats\n- added heist item properties at the evaluate dialog\n- added heist item types at the market\n- added heist filter group at the market\n- updated the external link behavior to skip in game notification\n- fixed an issue causing values at the evaluate dialog to be cut off (#827, #829)\n- fixed an issue freezing the launcher (#826)\n- fixed an issue with too long stats at the market window (#814)\n- fixed an issue using the slider at the settings window (#815)",
+			"title": "What's new in 1.0.11?"
+		},
+		"commands": {
+			"message": "All game commands can be bound to hotkeys.\n\nThere are also placeholders like @char available which will be replaced before executing the command.\n\nTry the hotkey below to teleport into your hideout.",
+			"title": "Commands"
+		},
+		"continue": "Continue",
+		"evaluate": {
+			"close": {
+				"message": "The window can be closed by clicking outside the window or by pressing esc if the window was focused.",
+				"title": "Close evaluate window"
+			},
+			"message": "Lets you evaluate items with your given presets of search filters.\n\nHover over an item and press the hotkey below:",
+			"options": {
+				"message": "The options can be toggled by clicking the highlighted icon.\n\nThey are used to quick adjust certain settings like the league for this search.\n\nThe values are changeable by scrolling.",
+				"title": "Options"
+			},
+			"price": {
+				"message": "The price section either shows the exchange rate from poe.ninja or for rare items the predicted price from poeprices.info.",
+				"title": "Price"
+			},
+			"properties": {
+				"message": "The properties includes the calculate DPS.\n\nThey are normalized exactly to 20% quality - regardless if the actual quality is higher/ or lower.\nThis can be turned off in the settings.\n\nClicking on a property adds it to the search query. More onto this at the stats.",
+				"title": "Properties"
+			},
+			"search": {
+				"message": "The search shows all listings based on your filters.\n\nYou can choose between a graphical or a list view.\nThe graph view groups the items based on their price and displays the count of those groups. The list view simply shows the listing sorted by the amount.\nBoth views are additionally filtered for potential price fixers by grouping their listing into one.\n\nBy clicking a listing - a formatted price note will be copied to your clipboard.",
+				"title": "Search"
+			},
+			"settings": {
+				"message": "The settings can be adjusted by clicking the highlighted icon. Most settings are defining what item properties are added onto the initial search.\n\nFor example you can adjust the pre-selected stats in the settings.",
+				"title": "Settings"
+			},
+			"stats": {
+				"message": "Clicking a stat will add it to the search query.\n\nYou can modify the range by scrolling while hovered. If you want to adjust a single value - just hover it.\nBy holding ALT you can adjust the step size to 0.1 and to 5 by holding SHIFT.\n\nTo set a value to infinite you right click it.\nTo reset a value you wheel click it. ",
+				"title": "Stats"
+			},
+			"title": "Evaluate"
+		},
+		"inspect": {
+			"close": {
+				"message": "The window can be closed by clicking outside the window or by pressing esc if the window was focused.",
+				"title": "Close inspect window"
+			},
+			"loot": {
+				"message": "Shows the possible loot of a map or the loot location for a given item.",
+				"title": "Loot"
+			},
+			"message": "Allows you to open the item at the wiki or poe.db. Also shows the dangerous stats of a given map or the drop location for certain divination cards. \n\nHover over an item and press the hotkey below:",
+			"settings": {
+				"message": "The settings can be adjusted by clicking the highlighted icon.\n\nFor example you can adjust the map stat warnings in the settings.",
+				"title": "Settings"
+			},
+			"title": "Inspect",
+			"urls": {
+				"message": "Open item in the official wiki or poe.db by clicking one of the highlighted icons.",
+				"title": "Urls"
+			}
+		},
+		"market": {
+			"close": {
+				"message": "The market will keep the current results. Can be closed by pressing the hotkey again or clicking the x at the top right.",
+				"title": "Close market"
+			},
+			"filter": {
+				"message": "Click the highlighted icon to open the filter. Adjust the values to your like.",
+				"title": "Filter"
+			},
+			"message": "The market allows you to browse listed items and exchange currencies within the game. \n\nCan be toggled by pressing the hotkey below:",
+			"reset": {
+				"message": "The filter can be reset by clicking the highlighted symbol.",
+				"title": "Reset filter"
+			},
+			"search": {
+				"message": "The search shows the filtered results. It will automatically fetch new items once you reach the end of the list.\n\nBy clicking the send button you'll send a whisper with your offer.",
+				"title": "Search"
+			},
+			"title": "Market"
+		},
+		"misc": {
+			"message": "The stash highlight feature lets you filter the stash for given item.\n\nOpen your stash and press the hotkey below while hovering a item.",
+			"title": "Misc"
+		},
+		"replay": {
+			"message": "Captures short videos of game events like your death or if you kill a significant boss.\n\nCan be enabled at the settings. This is disabled by default because it may reduce your FPS.",
+			"title": "Replay"
+		},
+		"settings": {
+			"app-settings": {
+				"message": "The app language can be adjusted as you like.",
+				"title": "App settings"
+			},
+			"close": {
+				"message": "All settings are applied directly. The window can be closed by pressing the same hotkey again. ",
+				"title": "Close settings"
+			},
+			"game-settings": {
+				"message": "The game language must match your client language.\nThe league should be the same as your current character.\n\nAlso keep in mind once a new league arrives you need to adjust your settings accordingly.",
+				"title": "Game settings"
+			},
+			"message": "Open the settings window by pressing following hotkey:",
+			"title": "Settings"
+		},
+		"skip": "Skip Tutorial",
+		"support": {
+			"message": "Do you have a question? Or do you want to request a new feature?\n\nCheck the support tab at the settings menu for further information.\n\nAlso if you love the app, consider supporting me by subscribing.",
+			"title": "Support"
+		},
+		"thanks": {
+			"message": "That's it for now. Hope you enjoy my app. \n\n- Best regards, Kyusung4698",
+			"title": "Thank you!"
+		},
+		"trade": {
+			"highlight": {
+				"message": "To find the requested item in your stash you can click the highlighted icon.\n\nAt the top you can see the stash tab name. The icon on the right lets you switch between a normal and a quad stash layout.\n\nYou can filter the stash by clicking on the names at the bottom.",
+				"title": "Highlight items"
+			},
+			"incoming": {
+				"message": "By clicking on the upper part of a message the action bar will be revealed. If you're at your hideout it'll be revealed automatically.",
+				"title": "Incoming messages"
+			},
+			"init": {
+				"message": "The trade module provides a UI for incoming and outgoing trade messages.\n\nYou can invite the player, initiate the trade and highlight the item in the stash.",
+				"title": "Trade"
+			},
+			"outgoing": {
+				"message": "These are marked by a different color. The action bar is always revealed.",
+				"title": "Outgoing Messages"
+			},
+			"settings": {
+				"message": "In the settings you can customize the send messages and also disable the UI.",
+				"title": "Settings"
+			}
+		},
+		"welcome": {
+			"message": "The following annotations will guide you through the basic functionality.",
+			"title": "Welcome to PoE Overlay!"
+		}
+	},
+	"app": {
+		"clickable": "'Click' = In-Game Browser, 'CTRL + Click' Default Browser",
+		"hotkey": "Shortcut",
+		"language": "Language"
+	},
+	"bookmarks": {
+		"external": "External",
+		"name": "Bookmark",
+		"url": "Url"
+	},
+	"clipboard": {
+		"empty": "Clipboard was empty",
+		"error": "An error occurred while parsing the item.",
+		"parser-error": "Item could not be parsed. Please make sure you have the correct language selected."
+	},
+	"commands": {
+		"execute-error": "An unexpected error occurred while executing the command.",
+		"name": "Commands",
+		"text": "Command",
+		"tooltip": "Following placeholders are available:\n@latest_whisper -> latest whisper player name\n@char -> your current player name"
+	},
+	"evaluate": {
+		"cancel": "Cancel?",
+		"canceled": "Search canceled. Open in browser?",
+		"currencies": {
+			"displayed": "Displayed",
+			"name": "Currency",
+			"original": "Show original"
+		},
+		"item-search": {
+			"filter": {
+				"max-age": {
+					"any": "Any Time",
+					"day": "Up to a day ago",
+					"days": "Up to 3 days ago",
+					"month": "Up to 1 month ago",
+					"months": "Up to 2 months ago",
+					"name": "Listing Max Age",
+					"week": "Up to a week ago",
+					"weeks": "Up to 2 weeks ago"
+				},
+				"name": "Filter",
+				"online-only": "Online Only"
+			},
+			"profile": {
+				"default": "Default",
+				"name": "Preselected Profiles"
+			},
+			"property": {
+				"attack": "Attack",
+				"defense": "Defense",
+				"item-level": "Item Level",
+				"item-type": "Item Type",
+				"link": "Item Link",
+				"links": {
+					"always": "Always",
+					"never": "Never"
+				},
+				"miscs": "Gem Level, Map Tier & Quality",
+				"name": "Properties",
+				"normalize-quality": "Normalize Quality",
+				"range": "Min-Max Range"
+			},
+			"query": {
+				"debounce-time": "Debounce Time",
+				"fetch-count": "Fetch Count",
+				"initial": "Run initial search",
+				"name": "Query"
+			},
+			"stat": {
+				"name": "Stats",
+				"range": "Min-Max Range",
+				"stats-export": "Export Stats to Clipboard",
+				"stats-import": "Import Stats from Clipboard",
+				"unique-all": "Unique Check All"
+			}
+		},
+		"layout": {
+			"horizontal": "Display horizontal",
+			"name": "Layout",
+			"value": "Result View",
+			"values": {
+				"graph": "Graph",
+				"list": "List"
+			}
+		},
+		"name": "Evaluate",
+		"options": {
+			"count": "Count"
+		},
+		"prediction": {
+			"confidence": "Confidence",
+			"error": "An error occured.",
+			"errors": {
+				"http": "Could not communicate with poeprices.info\nPlease make sure the website is reachable."
+			},
+			"feedback": "Feedback",
+			"feedbacks": {
+				"fair": "equitable",
+				"high": "too high",
+				"low": "too low"
+			},
+			"language": "poeprices.info only supports English as client language.",
+			"sending": "Sending",
+			"source": "Price prediction based on poeprices.info",
+			"thanks": "Thanks!"
+		},
+		"rate": {
+			"days": "Last 7 days",
+			"error": "An error occured.",
+			"errors": {
+				"http": "Could not communicate with poe.ninja\nPlease make sure the website is reachable."
+			},
+			"switch": "switch amount",
+			"value": "Value"
+		},
+		"table": {
+			"age": "Age",
+			"seller": "Seller",
+			"value": "Value"
+		},
+		"tag": {
+			"exact": "Exact price has been copied. Double tap for negotiable price.",
+			"negotiable": "Negotiable price has been copied."
+		},
+		"translate": {
+			"name": "Evaluate Translate"
+		},
+		"values": {
+			"mean": "Mean",
+			"median": "Median",
+			"mode": "Mode",
+			"range": "Range"
+		}
+	},
+	"event": {
+		"start-error": "Could not start listening to game events."
+	},
+	"footer": {
+		"support": "Support"
+	},
+	"help": {
+		"browser": "Holding CTRL while clicking will open the link in the default browser.",
+		"browser-title": "How do i open the search in my default browser?",
+		"bug": "Create an Issue",
+		"bug-title": "Found a Bug? Or have a Suggestion? Please create an issue on GitHub",
+		"donate": "Donate via PayPal",
+		"donate-title": "Love the project? Feel free to leave a donation. Thanks for your support!",
+		"dwm": "This is mostly caused by an disabled Aero / DWM. Therefore try enabling this windows feature.<br> As it's required to create transparent windows.",
+		"dwm-title": "Why is my screen turning black/white after toggling any feature?",
+		"faq": "FAQ",
+		"graph": "The bar indicates the distribution of the item value. It basically groups the values by value and counts them.<br> The highest bar is the Mode. Also named 'most common value'. Mean is the average. Median is the centered value of all values.",
+		"graph-title": "What does the graph represent? What is mode/mean/median?",
+		"graph-url": "Open 'How to read a Histogram Min Max Median Mean' by 'academy.datawrapper.de'",
+		"graphic": "This is mostly caused by incompatible graphic drivers for the current chromium version.<br> Please disable Hardware Acceleration inside the tray menu.",
+		"graphic-title": "The graphics are blurry/ graphic bug?",
+		"name": "Help",
+		"patreon": "Support me on Patreon",
+		"wiki": "Open Project Wiki",
+		"wiki-title": "See the project wiki for further documentation"
+	},
+	"inspect": {
+		"map": {
+			"boss": "Boss",
+			"boss-rating": "Boss Rating",
+			"boss-rating-info": "5: High and consistent damage output that is difficult to reliably avoid; skipped by many players.\n4: High and consistent damage output that can be avoided reasonably well but still very dangerous.\n3: Occasionally high damage output that can be avoided reasonably well.\n2: Moderate damage output that can be easily kited and/or reasonably mitigated by most builds.\n1: Trivial for most builds.",
+			"bosses": "Bosses",
+			"layout-rating": "Layout Rating",
+			"layout-rating-info": "A: The map has a consistent layout that can be reliably fully cleared with no backtracking.\nB: The map has an open layout with few obstacles, or has only short and well-connected side paths.\nC: The map has an open layout with many obstacles, or has long side paths that require backtracking.",
+			"name": "Map",
+			"no-map": "Item is not a map.",
+			"not-found": "Map not found.",
+			"stats-warning": "Stats Warnings",
+			"stats-warning-export": "Export Stats Warnings to Clipboard",
+			"stats-warning-import": "Import Stats Warnings from Clipboard"
+		},
+		"name": "Inspect",
+		"open-poedb": "Open PoE DB",
+		"open-wiki": "Open Wiki"
+	},
+	"market": {
+		"bar": {
+			"history": "History",
+			"reset": "Clear filter",
+			"search": "Search",
+			"toggle": "Toggle filter"
+		},
+		"exchange": {
+			"get": "What you get",
+			"have": "Item(s) I have ({{count}})",
+			"highlight": "Highlight items...",
+			"pay": "What you pay",
+			"want": "Item(s) I want ({{count}})"
+		},
+		"name": "Market",
+		"search": {
+			"search": "Search items..."
+		},
+		"status": {
+			"afk": "Afk",
+			"offline": "Offline",
+			"online": "Online"
+		}
+	},
+	"material": {
+		"select-list": {
+			"add": "add to selected",
+			"remove": "remove from selected",
+			"search": "Search",
+			"selected": "Selected",
+			"unselected": "Unselected"
+		}
+	},
+	"misc": {
+		"highlight": "Stash Highlight",
+		"name": "Misc",
+		"navigation": "Stash Navigation",
+		"navigations": {
+			"disabled": "Disabled",
+			"inverse": "Inverse",
+			"normal": "Normal"
+		}
+	},
+	"replay": {
+		"capture": "Capture",
+		"capture-error": "The event could not be captured.",
+		"death": "Death event",
+		"future-duration": "Future duration",
+		"help": "Replays are saved at: '{{path}}'\nOld videos are deleted after reaching a size threshold.",
+		"kill": "Kill event",
+		"manually": "Manually",
+		"name": "Replay",
+		"past-duration": "Past duration",
+		"start-error": "The events capturing could not be started.",
+		"started": "The capture of events has been started.",
+		"stop-error": "The events capturing could not be stopped.",
+		"stopped": "The capture of events has been stopped."
+	},
+	"settings": {
+		"app": "App",
+		"auto-download": "Download update automatically",
+		"auto-launch": "Run on Boot",
+		"cancel": "Cancel",
+		"character-name": "Character Name Fallback ",
+		"dialog": "Dialog",
+		"dialog-opacity": "Dialog Opacity",
+		"dialog-spawn-position": {
+			"center": "Center",
+			"cursor": "Cursor"
+		},
+		"dialog-spawn-position-title": "Dialog Spawn Position",
+		"display-version": "Display Version",
+		"exit-app": "Exit App",
+		"focusable": "Focusable (Keyboard Support)",
+		"game-settings": "Game Settings",
+		"general": "General",
+		"languages": {
+			"english": "English",
+			"french": "French",
+			"german": "German",
+			"korean": "Korean",
+			"polish": "Polish",
+			"portuguese": "Portuguese",
+			"russian": "Russian",
+			"simplifiedchinese": "Simplified Chinese",
+			"spanish": "Spanish",
+			"thai": "Thai",
+			"traditionalchinese": "Traditional Chinese"
+		},
+		"league": "League",
+		"relaunch-app": "Relaunch App",
+		"save": "Save",
+		"ui-language": "UI Language",
+		"zoom": "Zoom"
+	},
+	"support": {
+		"developer": {
+			"open": "Open the Subscription Page",
+			"text": "If you love the app, consider supporting me by subscribing. This will allow me to spend more time developing this app and keep it up-to-date. You will also get early access to new features.",
+			"title": "Support the Developer"
+		},
+		"name": "Support",
+		"question": {
+			"discord": "Join the Discord-Community",
+			"github": "Submit an Issue at the GitHub Project",
+			"text": "You have a question? Or do you want to request a new feature?",
+			"title": "Get Support"
+		}
+	},
+	"trade": {
+		"action": {
+			"finished": "Thanks and Goodbye",
+			"hideout": "Go to seller hideout",
+			"interested": "Still interested?",
+			"invite": "Invite",
+			"item-gone": "Item gone",
+			"item-highlight": "Highlight Item in Stash",
+			"resend": "Resend offer",
+			"trade": "Trade",
+			"wait": "Wait?",
+			"whisper": "Whisper"
+		},
+		"actions": "Actions",
+		"analyzing": "Analyzing data...",
+		"empty": "No results. Open in browser?",
+		"enabled": "Enabled",
+		"error": "An error occured.",
+		"errors": {
+			"http": "Could not communicate with the GGG trade website.\nPlease make sure the website is reachable.",
+			"rate": "Limit reached. Please try again later.\nIf this keeps happening please try lowering the fetched item count. "
+		},
+		"fetching": "Found {{total}}. Fetching {{count}} entries...",
+		"filter": "Filter",
+		"filters": {
+			"incoming": "Incoming",
+			"incomingoutgoing": "Incoming & Outgoing"
+		},
+		"height": "Height",
+		"layout": "Layout",
+		"layouts": {
+			"bottomtotop": "Bottom To Top",
+			"toptobottom": "Top To Bottom"
+		},
+		"leave-party": "Leave party once finished",
+		"message": {
+			"item-gone": "Item gone message",
+			"still-interested": "Still interested message",
+			"thanks": "Thanks message",
+			"wait": "Wait message"
+		},
+		"messages": "Messages",
+		"name": "Trade",
+		"no-price": "No price",
+		"not-found": "No data found.",
+		"search": "Search",
+		"searching": "Searching...",
+		"sound": {
+			"name": "Notification Sound",
+			"volume": "Volume"
+		},
+		"stale": "Filter has been changed. Fetching again ... - Now?",
+		"stash-size": "Change Stash Size (Normal, Quad)"
+	}
+}

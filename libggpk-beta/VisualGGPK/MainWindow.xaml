@@ -1,0 +1,94 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:VisualGGPK" 
+        xmlns:Properties="clr-namespace:VisualGGPK.Properties"
+        x:Class="VisualGGPK.MainWindow"
+        Title="VisualGGPK" 
+        Height="600" Width="1100" 
+        Loaded="Window_Loaded" 
+        AllowDrop="True" 
+        Drop="Window_Drop_1" 
+        PreviewDrop="Window_PreviewDrop_1" 
+        Closing="Window_Closing_1">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="200"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <TreeView  x:Name="TreeView1" 
+        			PreviewMouseDown         = "OnTreeViewMouseDown"
+        			SelectedItemChanged      = "OnTreeViewSelectedItemChanged"
+        			TreeViewItem.Expanded    = "OnTreeViewItemExpanded"
+        			VirtualizingStackPanel.IsVirtualizing="True"
+        			VirtualizingStackPanel.VirtualizationMode="Recycling" >
+                <TreeView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="MenuItemExport" 
+        						Header="{x:Static Properties:Resources.MainWindow_Menu_Export}"
+        						Click="OnItemContextMenuExportClicked" IsEnabled="False" />
+                        <MenuItem x:Name="MenuItemReplace" 
+        						Header="{x:Static Properties:Resources.MainWindow_Menu_Replace}" 
+        						Click="OnItemContextMenuReplaceClicked" IsEnabled="False"/>
+                        <MenuItem x:Name="MenuItemOpen" 
+        						Header="{x:Static Properties:Resources.MainWindow_Menu_View}"
+        						Click="OnItemContextMenuOpenClicked" IsEnabled="False" />
+                        <MenuItem x:Name="MenuItemDelete" 
+        						Header="{x:Static Properties:Resources.MainWindow_Menu_Delete}"
+        						Click="OnItemContextMenuDeleteClicked" IsEnabled="True" />
+                    </ContextMenu>
+                </TreeView.ContextMenu>
+            </TreeView>
+            <StackPanel Grid.Row="1" >
+                <Button x:Name="SaveButton" Content="Save" Click="OnSaveClicked" Width ="50"/>
+            </StackPanel>
+        </Grid>
+
+        <GridSplitter Grid.Column="0" Width="3" Visibility="Visible" />
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--different viewers for different types of files-->
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <Label x:Name="LabelFileOffset" Content="{x:Static Properties:Resources.MainWindow_Label_FileOffset}"/>
+                <TextBox x:Name="TextBoxOffset" Width="100" IsReadOnly="True"/>
+
+                <Label x:Name="LabelFileSize" Content="{x:Static Properties:Resources.MainWindow_Label_FileSize}"/>
+                <TextBox x:Name="TextBoxSize" Width="100" IsReadOnly="True"/>
+
+                <Label x:Name="LabelFileNameHash" Content="{x:Static Properties:Resources.MainWindow_Label_FileNameHash}"/>
+                <TextBox x:Name="TextBoxNameHash" Width="100" IsReadOnly="True"/>
+
+                <Label x:Name="LabelFileHash" Content="{x:Static Properties:Resources.MainWindow_Label_FileHash}"/>
+                <TextBox x:Name="TextBoxHash" Width="100" IsReadOnly="True"/>
+                <CheckBox x:Name="AutoScrollCheckBox" Content="AutoScroll" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0,0,0" IsChecked="True"/>
+                <Button x:Name="SerializeButton" Content="Serialize" Click="OnSerializeClicked" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10,3,0,0" Width ="65"/>
+            </StackPanel>
+
+            <!--different viewers for different types of files-->
+            <local:DatViewer Grid.Row="1" x:Name="DatViewerOutput" Visibility="Hidden"/>
+            <TextBox Grid.Row="1" x:Name="TextBoxOutput" TextWrapping="Wrap" 
+        		VerticalScrollBarVisibility="Auto" Visibility="Visible" 
+        		FontFamily="Consolas" FontSize="13" IsReadOnly="True"/>
+            <Image Grid.Row="1" x:Name="ImageOutput" Stretch="None" Visibility="Hidden" />
+            <RichTextBox Grid.Row="1" x:Name="RichTextOutput" 
+        		Visibility="Hidden" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+            <DataGrid Grid.Row="1" AutoGenerateColumns="False" x:Name="DataGridOutput" 
+        		Visibility="Hidden" IsReadOnly="True"/>
+
+            <!--displayed file info-->
+
+        </Grid>
+    </Grid>
+</Window>

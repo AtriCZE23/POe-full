@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-master modification
-||||||| merged common ancestors
-text
-=======
-branch modification
->>>>>>> branch

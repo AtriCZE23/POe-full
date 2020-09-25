@@ -1,0 +1,30 @@
+<div class="header" [style.width.px]="width" [class.reverse]="reverse" [class.fixed]="fixed"
+    (mousedown)="onDrag($event, draggable)">
+    <div class="controls left">
+        <ng-content select="controls"></ng-content>
+    </div>
+    <div class="icon"></div>
+    <div class="name">
+        {{name}}
+        <ng-content select="name"></ng-content>
+    </div>
+    <div class="controls">
+        <ng-content select="controlsRight"></ng-content>
+        <mat-icon (click)="onClose($event)" *ngIf="closeable">close</mat-icon>
+        <mat-icon (click)="onPinned($event)" class="pin" [class.pinned]="pinned" *ngIf="pinnable">push_pin
+        </mat-icon>
+        <mat-icon (click)="onSettings($event)" class="settings" *ngIf="settingsToggle.observers.length">settings
+        </mat-icon>
+    </div>
+</div>
+<div class="content" [class.frame]="frame" [class.inline]="inline" [class.fixed]="fixed" [style.width.px]="width"
+    [class.reverse]="reverse" [class.has-footer]="footer" (mousedown)="onDrag($event, contentDraggable)">
+    <ng-content></ng-content>
+</div>
+<div class="footer" [class.reverse]="reverse" [class.fixed]="fixed" *ngIf="footer">
+    <div>v{{version}}</div>
+    <div class="spacer"></div>
+    <div class="clickable" (click)="supportToggle.next()" *ngIf="supportToggle.observers.length">
+        {{'footer.support' | translate}}
+    </div>
+</div>

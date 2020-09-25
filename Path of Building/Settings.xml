@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Mode mode="BUILD">
+		<Arg string="C:\Users\Atriw\Documents/Path of Building/Builds/AtriCZPOE/b.xml"/>
+		<Arg string="b"/>
+	</Mode>
+	<Accounts/>
+	<SharedItems>
+		<ItemSet title="aqtri"/>
+	</SharedItems>
+	<Misc showThousandsCalcs="true" showThousandsSidebar="true" nodePowerTheme="RED/BLUE" buildSortMode="EDITED"/>
+</PathOfBuilding>

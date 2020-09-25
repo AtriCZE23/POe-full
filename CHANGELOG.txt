@@ -1,0 +1,2088 @@
+----------------------------------
+NeverSink's itemfilter - version 7.9.3 - Harvest League - Finetuning
+----------------------------------
+
+- Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies, deliriumorbs
+
+- Added "Seed Enhancer". The 3 tiers currently have the appearances of the "Chaos Orb", "Sextant Tier" and "Divine Orb" tiers. I'll adjust them based on how useful/rare/expensive those will be.
+
+----------------------------------
+NeverSink's itemfilter - version 7.9.2 - Harvest League - Finetuning
+----------------------------------
+
+- Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies, deliriumorbs
+
+- Removed vaal regalia from the "harvest-enabled" additional crafting bases
+
+- The harvest enabled additional crafting bases are now disabled on strict (instead of semi-strict)
+
+----------------------------------
+NeverSink's itemfilter - version 7.9.1 - Harvest League - Finetuning
+----------------------------------
+
+- Resorted most tiers to adjust them the current economy. This economy "snapshot" is fairly volatile, as the league is very very fresh. Updating again after a few days is highly recommended
+
+- Revamped the highlight strategy for seeds. Every tier/color now has it's own appearance. I might add a overarching tier to highlight economy-expensive seeds later.
+
+- Added a small section with magic/normal items for the endgame, to provide some material to craft with on Harvest. The section is intentionally kept short and simple. Currently featuring the following bases: "Vaal Regalia" "Two-Stone Ring" "Onyx Amulet" "Sorcerer Boots" "Sorcerer Gloves" "Eternal Burgonet" - bases where players might opt for a rare and won't be using atlas bases such as Spiked Gloves/Two-Tone Boots. If you want more or different bases here: use filterblade. Section is hidden on very strict. I'm very split if there should be more bases like the Hubris Circlet or not, but I'd rathr keep the list short.
+
+- Introduced beast lures
+
+- Magic/Normal Two-Stone Rings, Leather Belts and Onyx amulets are now shown throughout the leveling process to have some food for harvest crafting
+
+- Resorted the new divination cards
+
+- Adjusted the highlight for Rare/Crafting weapons, giving Karui Maul/Chopper way more priority, due to their top tier damage potential.
+
+- Added the terror maul to the list of optional bases
+
+- Allowed the economy-updated filters to move currency into/from the alteration orb tier (with the gray icon and beam)
+
+- Reduced map icon size for talismans with specific mods
+
+- Early endgame life/mana flasks are now only shown in T1 maps, instead of T1-T2
+
+----------------------------------
+NeverSink's itemfilter - version 7.9.0 - Harvest League
+----------------------------------
+
+- Changed highlight strategy for rare weapons and added several maces, axes and other weapons to T1, T2 rares. Added a new tier for highlighting additional 2H weapons (disabled on strict). 
+
+- Adjusted crafting bases. Added several 2H weapons. Please note that I still highly advice to customize these on filterblade for your playstyle.
+
+- Retiered all uniques, divination cards etc. in order to better represent the early league economy. Used the economy from middle of delirium as a base and then added some early league special tiering and manual changes in order to retier all items.
+
+- Pinned down ancient orb to T2 because of the headhunter chance
+
+- Changed the chancable item list to: "Sadist Garb" "Leather Belt" "Occultist's Vestment" "Glorious Plate" "Studded Belt" "Granite Flask". Putting Sadist Garb first because smart twitchchat actually wanted it MORE than HH chancing!
+
+- Added all seeds. Seed tiering for now is very simplified, with just 4 tiers, each contianing the seeds for the specific tier (seed, grain, bulb, fruit). You can add new tiers on filterblade if you want to change that tiering at the start and want to highlight specific tiers a little bit more.
+
+- Added the new offerings. They're currently treated as T2 fragments and have received a new section
+
+- Added an the indigo oil (treated as a T3 oil)
+
+- Added the new infused engineer's orb and the faceted lens. Until we have more information on what it does, it stays in the Sextant tier. I suspect the faceted lens is something you can use in the "uber-plus-labs".
+
+- Added the 6 new scrolls. Appearance is temporary.
+
+- Added special appearance for T16 harbinger maps (at least temporary)
+
+- I've added all the new Winged scarabs into the T2 tier. I'll retier based on the economy information, once we know more, thanks!
+
+- T14-T16 maps now have a slightly different appearance
+
+- Moved "Amethyst Ring" "Unset Ring" to T2 rare rings/amulets
+
+- T3 rare rings/amulets are now hidden on strict ( "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Moonstone Ring" "Paua Amulet" "Paua Ring" )
+
+- Didn't add infrastructure as it can't drop and the filter notes were ambigious. IF it can drop, it'll still be highlighted by the "catch all".
+
+- Did some minor adjustments to cluster jewel highlight
+
+- Several minor strictness adjustments.
+
+- Added new divinaiton cards. Added new tier for the 4 unknown cards.
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.7a
+----------------------------------
+
+- Accidently didn't hide, T1-9 maps on uber strict as promissed
+
+- Change medium/small cluster jewel extra highlight threshold to 84
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.7
+----------------------------------
+
+- Done several adjustments to higher strictnesses. 
+
+- [!!!] The alchemy tier is now hidden on uberPLUS strict. Use FilterBlade if that's not OK for you.
+
+- [!!!] UberPLUS Strict now HIDES ALL non-unique/blighted maps below T14
+
+- [!!!] Uber Strict now removes any highlight/sound from all maps under T11. I'll expand this concept for the next league to only apply when mapping in higher areas.
+
+- [!!!] UberPLUS strict now disables T2 influenced base rules. This might lead to you occassionally losing out on ~5-15c, but you'll get less screen clutter and less need for pricechecks/bothersome trading. If that sounds like too much to you, you probably shouldn't be using uber-plus strict.
+
+- [!!!] Adjusted the tiering of most low-mid tier orbs (look at you fusings) and adjusted the filter generation as well. The stable filter currency tiering is now also created based on the currency economy. Added a EarlyLeagueTreatment to orbs to return them into higher tiers, during league starts.
+
+- Added a section for Unique Synthesis Rings.
+
+- Several incubators have been weighted towards lower tiers. Some have been added to the high incubator level tier.
+
+- Uber Strict now hides all rare cluster jewels under ILVL 75 (they lose their highlight on very strict)
+
+- UberPLUS Strict now hides all rare large cluster jewels - regardless of itemlevel
+
+- UberPLUS Strict removes highlight (minimap/beam/sound) from memberspecific veiled items
+
+- UberPLUS Strict no longer highlights summonner incursion items and any kind of incursion modded body armours.
+
+- UberPLUS strict no longer highlights any talismans, even if the identified mod filtering detected good combinations. It also no longer highlights identified life/es jewels.
+
+- Alteration Orbs no longer have any minimap highlight on Uber Strict
+
+- Done several adjustments to the Divination Card aspects (meta-information files that aid filter generation), to improve the tiering.
+
+- T4 Divination cards are now hidden on uber-strict, instead of uberPLUS strict.
+
+- Tier 3 prophecies are now hidden on uberPLUS strict. "Mapping" prophecies (the ones that use can insta-use to juice your maps) lose their highlight, but are still shown (minimap, sound, beam).
+
+- Tier 3 prophecies appearance and mapping appearance has been adjusted.
+
+- Adjusted the appearance of T3 and "Mapping" prophecies.
+
+- The boss drop uniques tier no longer has any sounds/beams/map icons on UberPLUS strict.
+
+- Removed the anchor from Jeweller's Touch. That prophecy is free to roam the tiers again, purely based on the economy, which will lead it straight into low tiers.
+
+- Slightly Adjusted the appearance of level 4 empower/enlighten. Enhance has been removed from the level 4-gem-tier. It will still be highlighted by the level 2+ enlighten/empower/enhance tier. Just with a lower intensity.
+
+- Added rules for stacks of all kind of mid-tier currency (such as fusing/alchemy orb stacks of 2+). These are still shown on high strictnesses
+
+- Screaming Essences now lose their highlight on Uber-Strict. Screaming, Shrieking and Remnant Essences are hidden on uber-plus strict.
+
+- Metamorph Samples of ILVL < 80 are now hidden on UberPLUS strict.
+
+- 6 Sockets are now hidden on Uber Strict instead of UberPLUS Strict
+
+- High Level Agnerod Staves are now shown on all strictnesses
+
+- Increased the strictness on ilvl 84-85 rares with "special bases" are now hidden on uberstrict+. Anything lower is hidden on uber strict.
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.6
+----------------------------------
+
+- Tier4currency divination cards are now hidden on uber+ strict. They lose their minimap highlight/sound on uber strict.
+
+- Brand Recall / Blood and Sand level 7 is now properly highlighted on Uber Strict +
+
+- Improved unique map tiering. Introduced a new low tier (t4) that is hidden on uber+ strict.
+
+- Teal oils are now "anchored" to T3 oils (they won't be hidden on higher strictnesses anymore). They're the most common material for blight map anointing.
+
+- Added polished elder/shaper scarabs to the "safe-list". These won't be hidden by the economy-updated filters anymore.
+
+- Uniques now use exact searches to prevent basetype tiering problems.
+
+- Added a auto-updated list of top basetypes to the filter re-generation tool to assist the influenced item tiering
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.5
+----------------------------------
+
+- [TIERING] Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies, deliriumorbs
+
+- Introduced a new tier for ILVL81 or higher incubators ( "Fragmented Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" ).
+
+- Introduced an exception tier for Agnerod Unique Staves of ILVL82 (T15) or higher for creativing a T15 vinktar square.
+
+- Introduced a new tier for last-in-chain-council prophecies. This tier is hidden on Uber-Plus Strict
+
+- Rare rings/amulets now have 3 tiers instead of 2. Both T3 and T2 are hidden on very strict and all 3 are hidden on uber strict. The result is more customization on filterblade and an increase of strictness on Very Strict. 
+
+- Improved the general tiering algorithm. This affects uniques, divination cards, prophecies, fragments and incubators. 
+
+- Offerings and vessels can/will now be hidden on higher strictness tiers
+
+- Moved vaal splinters a tier up, but hidden the lowest tier on uber+ strict
+
+- Did a lot of work to fight the noise in the poe.ninja-data in cheap divination cards.
+
+- Incrased the strictness on T5-currencylike cards. They are now hidden on very strict
+
+- Increased the strictness on generic rare jewels they lose their minimap highlight on uberstrict and are hidden on uber+
+
+- Perandus coin high stack reduced to 17 from 20. Perandus coins mid stacks are now hidden on uber strict, instead of uber+ strict.
+
+- Made the T2 unique highlight more consistent
+
+- Adjusted low tier delirium orb highlight
+
+- Changed resonators to exact searches
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.3
+----------------------------------
+
+- [TIERING] Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies, deliriumorbs
+
+- Several changes to further increase the strictness of uber-strict/uber-plus strict. Generic gems with less than 20 quality are now longer highlighted on the top strictness. Scarab, incubator, fragments, offerings, uniques and incursion mod adjustments.
+
+- Alteration Orbs are now tiered in a special way! These now have a special tier, that with a minimap icon (small grey circle). They're now hidden on uber-plus strict
+
+- Removed the dedicated silver coin entry. Silver coins are now filtered the same way chromatics/jewellers are. The silver coin entry is now used for alteration orbs.
+
+- Retiered currency in general. Tiering for harbinger orbs, silver coins, engineering orbs and some others have been adjusted.
+
+- Added a T4 tier for incubators - low tier incubators are now placed there. These are hidden on higher strictnesses. Geomancer and Timelost incubators are now anchored to T2 to give the tiering some dynamics.
+
+- Added a T4 tier for scarabs - low tier scarabs are now placed there. These are hidden on higher strictnesses. The tiering is set up in a way, that gilded incubators will never get there.
+
+- Normalized the appearance of leveling currencies to be affected by styles
+
+- Added a new rule for generally cheap/bad uniques with non-droppable rare versions that are obtained otherwise (such as Kingmaker). These uniques are by default excluded from the auto-tiering on filterblade to improve it's quality. Thanks to BalorMage for that idea.
+
+- Added more divination cards to the "Poor Divination Cards" list that is weighted towards being hidden early, to prevent them from getting into higher tiers.
+
+- Added a rule to always highlight ItemLevel 86 influenced items for uberelder/sirus fights.
+
+- Changed the appearance of T2 uniques
+
+- Several minor changes I forgot, because I've been improving this version on and off and accidently deleted the work in progress changelog -.-
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.2
+----------------------------------
+
+- [TIERING] Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies, deliriumorbs
+
+- Simulacrum splinters now come with a tierlist. Stacks of 3+, 12+, 30+ and 100+ (if you can reach it) have different appearances and sounds!
+
+- the rare belt, ring and amulet section has been reworked. It's now split into rings+amulets and belts. The 65/75 level split has been removed, all items are now explicitely listed. "Bad" belts are now hidden on strict. "Good" belts are now hidden on very strict (because stygian is the one true good belt).
+
+- Added basic tiering for delirium orbs
+
+- Atziri sacrifice fragments (non-midnight) are now hidden on uber+ strict!
+
+- T4 uniques are now hidden on uber strict instead of uber+ strict
+
+- T3 uniques are now also hidden on uber+ strict
+
+- Low Quality gems are now hidden on very strict, instead of uber-strict.
+
+- T3 uniques no longer contain uniques that are boss-exclusive drops (these have all been moved to T3boss)
+
+- The "large perandus coin stack" threshhold has been increased to 20. Uber+ strict hides anything below.
+
+- Essence filtering has become stricter in the endgame. Uber+ strict now also hides screaming essences
+
+- Economy-updated versions now retier all catalysts and more general currency
+
+- Improved the tiering strategy for Kaom's Heart and a few other items with a similar conundrum.
+
+- Low tier oils are now hidden on uber strict (instead of uber+). They no longer produce map icons on Very Strict
+
+- Adjusted endgame flask highlight. Random non-quality Utility and top tier Life/Mana flasks are now only highlighted until T2 maps (instead of T4). Their strictness also went up.
+
+- Generic Talismans are now hidden on very strict (keeping them visible, because you can easily sell them for mass alterations and those are going up in price like crazy). Their fontsize has been reduced.
+
+- Strictened up highlight for mod-detected talismans
+
+- Ilvl82+ magic abyss jewels are now hidden on uber strict
+
+- Ilvl82+ rare abyss jewels are now hidden on uber+ strict
+
+- rare random abyss jewels are now hidden on uber strict
+
+- magic generic jewels are now hidden on very strict instead of strict.
+
+- split small/large armours in the T1 rares. This split is purely functional and is only relevant for filter generation and filterblade.
+
+- random normal/magic ilvl84-85 item bases are no longer highlighted on uber strict
+
+- Breach rings are now hidden on strict.
+
+- Slightly reduced the highlight level of the sound and map icon for T1 gems below level 4.
+
+- Introduced a new section for enlighten/empower/enhance level 4
+
+- Slightly reduced the highlight of T15+ blighted maps
+
+- All Outlevled maps are now hidden on very strict
+
+- Removed section for eyes and livers.
+
+- 2Abyss Socket uniques are now correctly highlighted (and no longer picks up 1 abyss socket uniques)
+
+- Non-84+ normal/magic atlas bases are now hidden on very strict.
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.1
+----------------------------------
+
+- [TIERING] Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies
+
+- Did NOT make a tierlist for Delirium Orbs yet, since Delirium balance is receiving ongoing changes/patches.
+
+- Prophecy-upgradable, non-expensive uniques are now correctly hidden on higher strictnesses.
+
+- Non-Small (1x3, 1x4, 2x2, 2x2, 1x2, 1x1) and non member-specific veiled items have had their highlight reduced.
+
+- Reduced the highlight of several sections
+
+- Magic non-high-level abyss jewels are now hidden on very strict
+
+- Adjusted catalyst tiering
+
+- A few minor changes here and there.
+
+----------------------------------
+NeverSink's itemfilter - version 7.8.0
+----------------------------------
+
+- [!!!] Delirum. Added sections and integrated Simulacrum Splinters, Simulacrum, Cluster Jewels, Unique cluster jewels and Delirium Orbs (currently just 1 section, will be a tierlist in the future)
+
+- [!!!][TIERLISTS] Most tierlists have received an architecture rework. All basetypes are now explitely noticed. There's no more "remaining" entries.
+
+- [DIVINATION] Added the 7 new divination cards.
+
+- [FILTERTYPES] The economy-tiered versions of the filter now have more currency tiering. Note that the economy-based versions have some "safe-time" before they start re-tiering certain items during new leagues. The stable version is not affected by that.
+
+- [CHANCING] Adjusted chancing bases, disabled leather belts new chancing bases are: "Glorious Plate" "Occultist's Vestment" "Prophecy Wand" "Sadist Garb" "Ezomyte Dagger"
+
+- [RARES] Adjusted the tiering of all rare tiers to be a little bit more in line with the upcoming meta (thanks to the twitch viewers for their contribution)
+
+- [ESSENCES] Essences now have the normal currency appearance/tiering.
+
+- [ESSENCES] Essences are now filtered stricter
+
+- [ESSENCES] All essences are now highlighted like alchemy orbs while leveling.
+
+- [UNIQUES] Adjusted list of early game uniques and gave it a new appearance (dark blue background)
+
+- [UNIQUES] Added a section for items with multiple Abyss sockets (gloves, helmets, boots)
+
+- [UNIQUES] Added a section for boss-drop-uniques, such as Legion Sword (The Saviour) etc
+
+- [UNIQUES] Merged "multi-base" and "multi-base-league" uniques into one tier
+
+- [UNIQUES] Loreweave ring section is now disabled on very strict
+
+- [FLASKS] The leveling flask section now uses AreaLevels instead of ItemLevels
+
+- [FLASKS] Adjusted the endgame flask section to show quality utility flasks of interests and performed a bunch of improvements
+
+- [FLASKS] Added 4 identified flask rules (yes seriously).
+
+- [MISC] 6Sockets and Splinters now have a grey mapicon and beam, instead of a white one
+
+- [MISC] Splinters now use the "Kite" icon
+
+- [MISC] Influenced bases now use the "Cross" icon
+
+- [INFLUENCED] Random influenced bases are now "disabled" on uber-plus-strict, instead of hidden
+
+- [TALISMAN] Random Talismans are now longer shown on uber-strict.
+
+- [TALISMAN] Added a new section for selected Talisman BaseTypes (hidden on uber-plus-strict). Added a new section for Attribute-Talismans with 2 synergetic mod. Added a new section for Zombie-Talisman with 2 synergetic mods. Added a new section for random talismans, with 2 T1 mods.
+
+- [BASES] Improved the crafted base and rare treatment of: Ancient Greaves, Goliath Greaves, Shagreen Gloves, Stealth Gloves, Royal Burgonet, Eternal Burgonet
+
+- [CURRENCY] Merged conqueror orbs into general currencies
+
+- [CURRENCY] Merged catalysts into general currencies
+
+- [CURRENCY] Merged breach and legion splinter entries
+
+- Improved leveling gem section
+
+- Special thanks: Skraelos and Cdr
+
+----------------------------------
+NeverSink's itemfilter - version 7.7.1
+----------------------------------
+
+- Updated all tierlists
+
+- Added a tierlist for vials (economy-updated)
+
+- Prepared some work for the upcoming update for 3.10
+
+- Adjusted some internal tier mechanisms for divination cards
+
+----------------------------------
+NeverSink's itemfilter - version 7.7.0
+----------------------------------
+
+[!!!][LEVELING CURRENCY] Added a new section for LEVELING CURRENCY - wisdom scrolls, portal scrolls, transmutations, augmentations now all have max fontsize and are shown until AreaLevel 65. They also are highlighted a little bit more and are shown on strict. Upon entering areas of level 65+ the old highlight rules will apply again.
+
+[!!!][LEVELING GEMS] Added a small new section for leveling gems. Gems will always be highlighted in area-level 1 (the gems you get in the twilight strand). Gems will be highlighted on strict until level 65. Vaal Gems are highlighted more while leveling
+
+[MAPS] Added a new section for Shaper/Elder maps. Elder maps are now correctly highlighted!
+
+[INCUBATORS] Added an exception for the "Fine Incubator". It's not fine and it's no longer allowed in the tierlists.
+
+[CHANCING] Chancing bases will no longer highlight mirrorred items ( I will somewhat miss the time, when parties would play a game of hot potato with mirrorred sorcerer boots)
+
+[RARES] Added section for double corrupted rares
+
+[UNIQUES] Added section for double corrupted uniques
+
+[CURRENCY] Added 2 new sections for stacked splinters (1 for high splinters, 1 for low)
+
+A bunch of minor changes.
+
+There's a lot more changes prepared, but those still need some time, so they're coming for 3.10 launch.
+
+----------------------------------
+NeverSink's itemfilter - version 7.6.0
+----------------------------------
+
+- [!!!][PROPHECIES] Overhauled Prophecy tiering. It's much more strict now and has significantly more sophisticated. High strictnesses (Uber and Uber+) only show prophecies that are expensive OR can be instantly put into your prophecy tab for improved mapping, to increase quantity and returns. Added special section for non-expensive "drop"-prophecies (that drop specific unique items) and non-expensive "upgrade" prophecies. Highly useful for SSF customization. Very Strict hides around 50% of all prophecies, that are basically not worth the time. Removed "rest"-tier, every single known fragment is listed in the filter.
+
+- [!!!][FRAGMENTS] Overhauled fragment tiering. It now has it's own economy-based tierlist. Items will be retiered and adjusted with every update, similar to the other tierlists. Removed "rest"-tier, every single known fragment is listed in the filter.
+
+- [!!!][CONQUERORS OF THE ATLAS] Reworked and restructured the tiering for all 6 influenced types. It now uses the economy-based tiering system for all tiers. I'll keep a close eye on that one, but it should be much more accurate already (even if there might be some false positives)
+
+- [!!!][CRAFTING] Vastly simplified the crafting section. It was previously overly complicated. Merged and simplified several rules. The crafting sections went down from a 36 combined rule set down to 14. Smoothened highlight, merged several sections and adjusted bases.
+
+- [TIERING] Most tierlists have been adjusted to better match the current state of the game. Affected tierlists are: uniques, divination cards, unique maps, fossils, incubators, prophecies, scarabs, high level crafting bases, oils, fragments, shaper, elder, crusader, hunter, redeemer, warlord, vials, currencies
+
+- [ENCHANTMENTS] Added a separate rule for boots/gloves and helmets enchantments. Boots/Gloves enchanted items are no longer highlighted on Very Strict and up. Enchanted helmets have increased highlight.
+
+- [DIVINATION] The following divination cards have been moved and "anchored" (not affected by economy tiering) to the tier-5-currency tier: "Rain of Chaos" "Her Mask" "The Gambler" "The Flora's Gift" "The Scholar". These cards have the highest dropsize, but low highlight and are hidden on Uber Strict and upwards. Their treatment is now very similar to that of alteration orbs and similar tier items.
+
+- [LEGION] Adjusted T2 incubator appearance
+
+- [DIVINATION] Random tier 5 (lowest tier) divination cards are now hidden on strict and upwards.
+
+- [MAPS] Reduced highlight and sounds on T15-16 maps.
+
+- [MAPS] Incrased highlight for the 4 shaper guardian maps (shaper only: there's currently no way ingame to identify "Elder" maps as such, this needs to be adjusted by GGG)
+
+- [INCURSION] Added "Citaqualotl" (summonner) to the "valuable" mod combinations.
+
+- [INCURSION] Added "of Tacati" (attack/castspeed + chaos) to the "valuable" mod combinations.
+
+- [INCURSION] Reduced the strictness for all incursion mod combinations
+
+- [METAMORPH] Catalysts now have 2 tiers.
+
+- [LEVELING] Adjusted life/mana/hybrid flask highlight levels to smoothen out progression
+
+- [UNIQUES] Loreweave rings are no longer highlighted on Uber+ strict
+
+- [BETRAYAL] Added a special section for 2x-veiled items.
+
+- [BETRAYAL] Random (non-member specific) veiled items are now no longer highlighted on Uber-Strict.
+
+----------------------------------
+NeverSink's itemfilter - version 7.5.1
+----------------------------------
+
+- [TIERING] Adjusted all tierlists. All tierlists should be much more in line with the current economy.
+
+- [CONQUERORS] Skipped any changes to the new Influenced Item Types - for now, until there's more information on how popular and meta certain types will be.
+
+- [METAMORPH] Adjusted metamorph highlight. ILVL 80+ metamorph samples (from maps) AND/OR livers and eyes are highlighted a tiny bit more
+
+- [STYLE] Changed the obnoxiously picked green color, used for early league predictions and metamorphs. Sorry about that, the color was not a great pick.
+
+- Cleaned up a lot of TODOs from the last update and did a bunch of minor improvements.
+
+----------------------------------
+NeverSink's itemfilter - version 7.5
+----------------------------------
+
+- [TIERING] Added new Divination Cards. The "Underground Forest" card is not previewed, so it's in T3, until we know what it does.
+
+- [TIERING] Adjusted all tierlists. Implemented special tiers for early league pricing predictions (divination cards, uniques).
+
+- [CHANCING] New chancing bases: "Glorious Plate" "Occultist's Vestment" "Sadist Garb" "Prophecy Wand" "Leather Belt"
+
+- [METAMORPH] Added a section for tradable metamorph fragments and a section for non-tradable ones (not sure if it'll work, since organs seem to have a special appearance)
+
+- [WATCHSTONES] Added a section for tradable watchstones and non-tradable watchstones.
+
+- [EARLY LEAGUE UNIQUE PREDICTIONS]
+
+- [FRAGMENTS] Added all 8 new fragments (elder/uber elder). They all have the divine orb sound. Moved Mortal hope/ignorance into that tier as well.
+
+- [GEMS] Awakened Gems added. Currently they're all treated as a tier 1 item (exalted orb sound, white background etc). Will be updated, once economy is established.
+
+- [METAMORPH] Catalysts added. Currently one tier, later auto-updated.
+
+- [CONQUEROR INFLUENCE TYPES] Introduced the 4 new influence types. Their treatment is currently temporary, but it has 3 tiers. ILVL 85 top bases, high droplevel/itemlevel combinations, rings, amulets, belts etc. are treated advantageously. Expect a full rework of that section in the next weeks, once we have more data.
+
+- [LEVELING] Minor rework of the leveling section, especially the first levels. Normalized font sizes, simplified some rules and made things a bit more visually appealing. 
+
+- [LEVELING] Tweaked the strictnesses a bit.
+
+- [LEVELING] The act1 breakpoint, has been increased to the 
+
+- [MAPS] Increased the map outleveling threshold by several levels. In practice it means, that only T1-T5 maps will be eventually hidden/less highlighted (strictness dependent) in T13+ maps
+
+- [BESTIARY] Added a section that selectively highlights Bestiary items on "Rings" "Amulets" "Belts"
+
+- [MAPICONS] The “Hexagon” Icon is now used for most pseudo-currencies, fragments, splinters etc. The diamond icon is now used for influenced items, crafting bases etc.
+
+- [BLIGHT] Blighted map appearance now only has 2 tiers. 15+ (treated as a T1 drop) and rest (treated as a T2 drop). I’ll keep a close eye on that change
+
+- [BESTIARY] Increased the strictness of other bestiary-modded items, to not be shown on strict and up
+
+- [WARBAND] Warband mod items are no longer highlighted starting with Strict
+
+- [INCURSION] Added advanced incursion filtering. On higher strictnesses (strict and up) mods are only highlighted if the item class can have interesting incursion mods. That means, there will be a lot less damage over time, mana and random staves highlighted.
+
+- [IDENTIFIED MOD FILTERING] Integrated incursion mods into the rare permutation section. This allows better detection of valuable identified rare items. (You’ll thank me, if that thing will highlight a 10ex rare at some point).
+
+- [IDENTIFIED MOD FILTERING] Introduced +5/+2 to all gems combinations
+
+- [IDENTIFIED MOD FILTERING] Added extra chaos damage, +X to all gems and cold/fire multiplier combinations to the identified rare caster weapon and shields.
+
+- [IDENTIFIED MOD FILTERING] Improved identified mod filtering sections. Lot’s of minor improvements all over the system. Also changed their appearance.
+
+- [UNIQUES] Adjusted algorithmic handling of Sorcerer Boots uniques (They won’t be getting into the T1 tier quite as easily anymore)
+
+- [UNIQUES] Tabula Rasa moved a tier down (T2)
+
+- [DIVINATION] Changed divination card appearance of exception tiers
+
+- [CURRENCY] Moved binding shards a tier down.
+
+- [STRUCTURE] Removed several redundant entries, such as Synthesis, Shaper/Elder ORB entries etc. Simplified multiple entries. Did a lot of structural improvements.
+
+- [CRAFTING-BASES] Reduced the text-size of crafting bases.
+
+- [PERANDUS] Slightly adjusted appearance of Perandus Coins. Low coins numbers (<4) are now hidden on very strict (instead of uber strict)
+
+- [FILTERBLADE] Reworked all leveling presets.
+
+----------------------------------
+NeverSink's itemfilter - version 7.4
+----------------------------------
+
+- Reworked my tiering strategy - the tier generation now considers the current exalted orb price
+
+- Significantly reworked divination card tiering to be more strict to cheap-ish cards
+
+- Adjusted the tiering of all: uniques, divination cards, shaper/elder bases, oils, unique maps, prophecies, scarabs, incubators, fossils
+
+- There's now a Softcore and Hardcore Specific filter on FilterBlade repository. These filters gets updated once every 4 hours (they don't autoupdate, you still need to download)
+
+----------------------------------
+NeverSink's itemfilter - version 7.33
+----------------------------------
+
+- Adjusted the tiering of all: uniques, divination cards, shaper/elder bases, oils, unique maps, prophecies, scarabs, incubators, fossils
+
+- Did significants improvements to the tiering system. The highlighting should be much more on-point for the blight league economy now!
+
+- Increased the threshhold for T1 and T2 oils, scarabs and incubators (meaning less of them will be making an exalted orb-tier sound).
+
+- Slightly adjusted all tiering threshholds, to make things more accurate and to make the exalted orb/divine orb tier sound more exclusive.
+
+- Added a small tier, that special highlights all iLVL 86 exclusive bases, based on poe.ninja economy data
+
+- Adressed further inconsistencies in the crafting tiers added in 7.3. This includes some crafting tiers being hidden, instead of disabled, added level ranges to all itemlevels, adjusted strictnesses, slightly changed colors
+
+- Random (non-NPC-specific) veiled items are now hidden on uber-plus-strict, instead of uber-strict
+
+- Random Legion Splinters (Karui, Eternal, Vaal) are no longer hidden on uber-plus-strict
+
+- Removed flesh&stone from the 6-level-only gem-list
+
+- Added a system that allows disabling tiers, if they're not currently relevant in the economy.
+
+----------------------------------
+NeverSink's itemfilter - version 7.32
+----------------------------------
+
+- Adjusted the tiering of all: uniques, divination cards, shaper/elder bases, oils, unique maps, prophecies, scarabs, incubators, fossils
+
+- Did major adjustments to the newly introduced/reworked crafting bases section in both the filter and filterblade. 
+
+- Blesser orb moved down to the silver coin tier
+
+- "Hideable" uniques now have a black background, instead of a slightly brown one.
+
+- Changed the appearance of cheap oils
+
+- Split the crafting bases section (T3/T4) into jewellery and non jewellery sections.
+
+- Fixed bugs that caused customsounds to malfunction and not convert correctly
+
+- Fixed bugs that caused filterblade adjustments to be unintuitive when it comes to hiding ilvl 84+ crafting bases
+
+----------------------------------
+NeverSink's itemfilter - version 7.31
+----------------------------------
+
+- Retiered all uniques and integrated new uniques
+
+- Retiered all divination cards
+
+- Retiered prophecies, scarabs, fossils, unique maps
+
+- Did NOT retier shaper/elder items, since the economy is still too fresh for that
+
+- Changed the appearance of the cheapest 3 Oils
+
+- The cheapest 3 oils are now hidden on uber-plus strict
+
+- Changed the sounds of scarabs
+
+- Moved convoking wands a tier down in the crafting bases
+
+- Moved the new mana rings a tier down in the crafting bases
+
+- Change minimap icon of crafting bases
+
+- T1 and T2 non-shaper/elder crafting bases are less visible
+
+- Abyss jewels under 82 no longer create a map icon.
+
+- Adjusted the appearance of blighted maps of tier 10+
+
+- Adjusted the sound of blighted maps of tier 15+
+
+----------------------------------
+NeverSink's itemfilter - version 7.3
+----------------------------------
+
+- Due to the changes to POE over the last patches, several different types of items that were previously exlusuive to certain encounters, now can drop everywhere. To keep the screen clean and to preserve a certain amount of simplicity, I've begun merging colors and rules. This is an ongoing process and will continue happening overt he next patches. Several item types have their appearance changed.
+
+- Completely reworked the System behind crafting, atlas and special bases. They're now combined into a special section that features 86/84/rest level highlight. The section is duplicated for rare and non-rare variants and has new apperances
+
+- Removed several old obsolete entries
+
+- Added support for blighted maps
+
+- Added support for oils
+
+- Added support for the new basetypes (currently in the same tier as opal ring and steel ring, until we know more)
+
+- Retiered rares. T1 rares have less focus on attack build and more focus on caster equipment, different boots types (as those are usually fairly profitable early on) and some other minor changes
+
+- Did further work to merge several appearance types.
+
+- Uber-Plus strict now hides 6Sockets, cheap Breach and cheap legion splinters.
+
+- Templar Legion splinters have been moved a tier up
+
+- Increased the threshhold price for T1 fossils
+
+- Completely retiered uniques. The retiering is "considering" a new "early league mode". Feedback welcome
+
+- "Regal Orb" "Vaal Orb" "Orb of Regret" have been moved to the alchemy tier
+
+- Vial of Transcendence has been moved down a tier
+
+- Changed chancing bases and added leather belt back to the chancing bases
+
+- Retiered divination cards, unique maps, shaper/elder items, scarabs, prophecies... [etc]
+
+- Changed divination card T2 and T3 appearance
+
+- Changed shaper/elder item appearance
+
+- Changed scarab appearance
+
+- Harbinger currency now has the same apperance as normal currency and is merged into the normal currency tierlist
+
+- "Tyrannical/Merciless/Dictator" shields/gloves will no longer be falsely matched by identified items sections
+
+- Improved the general structure of the filter
+
+----------------------------------
+NeverSink's itemfilter - version 7.2
+----------------------------------
+
+- Added a new Style: Crimson
+
+- Adjusted the following tierlists to better match the current economy: uniques, divination cards, unique maps, fossils, incubators, shaper/elder rares.
+
+- Did significant improvements to the Shaper/Elder tiering algorithms. This adds another layer of accuracy and is a precurser to a better rare and crafting base tiering system.
+
+- Added prophecies and scarabs to the tiering lists and designed a tiering strategy for them. They will be retiered during every update in the future, same as the lists above
+
+- Improved Veiled item highlighting. Added a special category for expensive member exclusive veiled items (currently: "Catarina's Veiled" "Elreon's Veiled" "Leo's Veiled" "Rin's Veiled" "Vagan's Veiled" "Vorici's Veiled") and for all other member-specific veiled items and. A special thanks to /u/FunRoom for the helpful reddit thread.
+
+- Random veiled items no longer have a dropsound
+
+- Random veiled items are now hidden on uberstrict
+
+- Random bestiary rares are now hidden on uberstrict
+
+- Retiered incursion vials
+
+- Improved identified rare item filtering by better treating high dexterity/strength/intelligence rolls (thanks to StarRune)
+
+- Added a Buzzsaw identified rare item filtering entry (thanks to StarRune)
+
+- Added special highlight for unique jewels (cobalt, viridian, crimson). Each of them has a chance to drop an expensive and rare version (such as inspired learning). Unique jewels now have a little blue star as a map icon. The mapicon/beam color is used for items that have a low chance to be very expensive and require manual checking.
+
+----------------------------------
+NeverSink's itemfilter - version 7.1.3 - Economy Update
+----------------------------------
+
+- Retiered uniques
+
+- Added better treatment for league-drop items to the tiering algorithm
+
+- Retiered Divination Cards
+
+- Added slightly better treatment for farmable low value currency cards to the tiering algorithm
+
+- Retiered Fossils
+
+- Retiered Shaper/Elder bases
+
+- Retiered Unique Maps
+
+----------------------------------
+NeverSink's itemfilter - version 7.1.2 - Further tiering improvements
+----------------------------------
+
+- Improved the tiering of certain multibase uniques (lion's roar, devoto's, divinarius etc.)
+
+- Added Timeless Jewel to T1 unique bases
+
+- Retiered T1 and T2 rare weapons
+
+- Added T2 fossils
+
+----------------------------------
+NeverSink's itemfilter - version 7.1.1 - Legion Economy Update
+----------------------------------
+
+- Retiered Uniques (62 changes)
+
+- Retiered Divination cards (84 changes)
+
+- Retiered Fossils (10 changes)
+
+- Retiered Shaper/Elder bases (600+ changes)
+
+- Retiered Unique Maps (5 changes)
+
+- Added a small tierlist for Incubators (3 incubators moved to T1)
+
+- Added the new T0 cold affix to the identified items tierlist
+
+- Added exceptions for Flesh and Stone, Blood and Sand and Brand Recall gems, since they have only 6 levels
+
+- Added special tiers for level 21+ 21+q gems and for level 21+ vaal gems
+
+- Moved rare "Dragonscale Boots" to T1
+
+- Minor fixes and improvements
+
+----------------------------------
+NeverSink's itemfilter - version 7.1.0a - Legion Update, Tiering Strategy Changes, Leveling improvements
+----------------------------------
+
+- The Soul moved to T3
+
+- Disabled Leather Belts from chancing (no nemesis league = No HH)
+
+----------------------------------
+NeverSink's itemfilter - version 7.1.0 - Legion Update, Tiering Strategy Changes, Leveling improvements
+----------------------------------
+
+- Significantly improved internal tiering mechanics. This is a large scale change, that will help delivering higher quality and faster filters in this and future updates
+
+- Added the new top tier element damage mods to the filter identified item filtering rules. I've left both old T1 and T2 in for now. (NOTE: Only fire/lightning, because Ice mod syntax is unclear, gonna be added soon)
+
+- Emblems added - share appearance with fragments
+
+- Leveling rare highlighting changed - on-level-decent rare weapons have red borders, bows green, caster equipment blue - this feature is not super polished, but it should help finding your rares in this strangeish meta of everything-works
+
+- Added a special tier for uniques that have been "legionized". they have a slightly purplish background. Most of them are likely stil bad, but keep your eyes out for cool new mods
+
+- Splinters (legion) added - they have the same apperance as breach splinters
+
+- Incubators added - for now no tierlist, they have the sextant appearance, gonna adjust as soon as more info is available
+
+- Retiered crafting bases for legion (more life, attack focus, less es, caster)
+
+- Retiered rare bases for legion (more life, attack focus, less es, caster)
+
+- Chain belt went a tier down on the rare trinket tierlist
+
+- Chancing bases changed. The new tierlist is ( "Glorious Plate" "Sadist Garb" "Sapphire Flask" "Varnished Coat" "Full Wyrmscale" "Granite Flask" )
+
+- Retiered rares - more life bases, slightly less es, more melee bases
+
+- Slightly increased highlights for 
+
+- Add new divination cards
+
+- Add meta-changed uniques
+
+- Retier uniques (Meta bases)
+
+- Retiered everything else
+
+- Minor architecture improvements
+
+----------------------------------
+NeverSink's itemfilter - version 7.01 - tierlist changes and goodies for console players.
+----------------------------------
+
+- Adjusted all uniques, divination cards, fossils, unique maps tierlists
+
+- Further improvements towards Shaper/Elder tierlists
+
+- Added 5 extra strictnesses. These strictnesses are designed for the console version of PoE and are basically high level strictnesses, that show more currency. You can find these strictnesses on my GitHub.
+
+----------------------------------
+NeverSink's itemfilter - version 7.00a
+----------------------------------
+
+- Tierlists adjusted further
+
+- Fixed a vaal greaves being T2 and goliath greaves being T1
+
+----------------------------------
+NeverSink's itemfilter - version 7.00 - Filter Generation Overhaul
+----------------------------------
+
+The filter is now generated using a new tool, I've written that over the past monthes (FilterPolishZ). This tool allows me to do some new things and to do a lot of old things way faster. Shoutout to /u/tobnac for teaming up!
+
+- [IMPORTANT!] The new FilterPolishZ tool was used to retier: all Uniques, Divination Cards, Fossils, Shaper-bases, Elder-bases. The process and results are currently supervised and double-checked by me, relies on several data enrichment algorithms and special aspect tables. This process will be used in the future to auto-update the filter.
+
+- [IMPORTANT!] The filter now hides a large list of unique items on uber+ strict. If you're running this strictness. It's HIGHLY recommended to update your filter regulary (good idea anyway) and double-check on filterblade. Please note that this list has been designed based on the Softcore League Economy.
+
+- [IMPORTANT!] The list of T5/hideable divination cards has been vastly expanded
+
+- [IMPORTANT!] Designed a new and fairly complex section for synthesis highlighting. Note that this is far from perfect, but filter can't help that much here, since one can't say what and how many fractured mods an item possesses. The colors will be finetuned in the next update (next update is style-focused)
+
+- [IMPORTANT!] Augmentation Orbs have been moved up to the Transmutation/Blacksmith tiering
+
+- [IMPORTANT!] The Transmutation/Blacksmith/Augmentation tier is now hidden on very strict (instead of uber strict)
+
+- [IMPORTANT!] Portal Scrolls are now hidden on strict. This change is experimental. I'll reverse it, if the feedback will be very strict (pun intended)
+
+- [IMPORTANT!] T1 rares no longer contain any large items (2x3/2x4) and are more exclusive in general. Non-Jewellery-T1 rares now mostly focus on boots/small shields/gloves/helmets. All items removed from T1 have been moved to T2. Only one exception: Vaal Regalias
+
+- [IMPORTANT!] 5Link WEAPONS (non unique etc.) in the endgame no longer get any highlight on Strict and above.
+
+- Added a more sophisticated section and a special highlight for stacked (lower) currencies.
+
+- Normal Fractured Items no longer have a dropsound (they still have the icon). Only certain fractured bases of interest now have sounds
+
+- Small perandus coin stacks (<4) are now only hidden on Uber Strict and up.
+
+- Moonstone rings and Chain Belts are no longer treated as T2 jewellery bases.
+
+- Gold Rings and Gold Amulets are now T2 jewellery bases.
+
+- 5Links ARMOURS in the endgame no longer produce sounds on Very Strict and are disabled on Uber Strict
+
+- 29-30% quality natural drop items are no longer highlighter on very strict and no longer have priority over veiled and fractured drops.
+
+- 5L and 6S highlight fractured/veiled items are now highlighted correctly.
+
+- Non-Rare "Default" (non-shaper/elder/fractured...) crafting bases are now filtered in a more strict way.
+
+- Rare/Non-Rare Default Crafting bases have more ES focus
+
+- Architecture improvements
+
+----------------------------------
+NeverSink's itemfilter - version 6.71 - Synthesis Economy Update
+----------------------------------
+
+- Retiered uniques. Several changes ahve been done due to the massive economy changes.
+
+- Retiered divination cards. The 2 new divination cards have been moved to T4-Economy (Boon of Justice) and T5 (Golden Era, feel free to correct me on this one, but I doubt it'll be popular).
+
+- Completely retiered all Shaper/Elder bases. The retiering has been done using the same algorithm that I've used in betrayal and the initial results look very promission to providing a long term solution for auto-tiering.
+
+- Retiered Fossils a bit
+
+- Retiered prophecies a bit
+
+- Adjusted T1/T2 rare bases, there's more focus on ES bases now.
+
+- Adjusted ilvl86 bases. There's more focus on ES bases now.
+
+- Adjusted Fractured item highlight a bit.
+
+- Minor adjustments to other tierlists.
+
+----------------------------------
+NeverSink's itemfilter - version 6.7 - The Synthesis Update
+----------------------------------
+
+- Added fractured items highlight. Fractured items are highlighted with a "special base" teal border and there's a difference in background for small and large (2h weapons, bows, staves) fractured items. I think the league will be rather lootheavy and it's a good idea to differ between those. More adjustments will follow in the next days.
+
+- Added synthesised item highlight. We dont know if these drop, but GGG has made a history of adding surprises.
+
+- Added enchanted item highlight. For now, there's no differentiation between those. Any enchanted item will get the "special" teal border. More tiering will be added in the future
+
+- Added new divination cards
+
+- Architecture improvements, that will culminate in a better way of updating and generating the filters in the future. I hope to have an example of that in the coming month or two. The new style will also be delayed until then.
+
+- 2 Divination cards are still unknown (their effects) and they have received a temporary highlight until we know better (greenish)
+
+- Optimized the explicit mod filtering. It now behaves in a better way and has a much cleaner priority list.
+
+- Slightly adjusted unique tierlists. Added some conventionally early-league-expensive uniques. Considered nerfs and buffs.
+
+- Slightly adjusted divination card tierlists. Considered nerfs and buffs.
+
+- Adjusted rare item tiering. It now has a heavier caster, es and ev/es focus
+
+- Strictened up the highlight for ILVL84/86 rare and normal rarity gear (non-incursion, fractured, shaper etc, the special items are more nails in the coffin of normal ones)
+
+- Adjusted the strictnesses a tiny bit in general
+
+- Shaper/Elder items (random ones, not T1/T2/jewellery) on Uber-Strict and higher
+
+- Retiered the whole chancing bases. New chancing bases are Headhunter, Inpulsa, Kaom, Shavs, Taste of Hate and the Mucho-Crit-Wand (void battery).
+
+- Slightly adjusted map icons
+
+- Slightly adjusted explicit mod highlighting (jewels + added chaos mod highlight)
+
+- Removed Added Chaos and Detonate Mines Gems from the gem highlight section, because they're now normal things to buy in a town.
+
+----------------------------------
+NeverSink's itemfilter - version 6.66
+----------------------------------
+
+- Retiered unique items. 
+
+- Retiered divination cards. Several specific unique divination cards have been pushed down to T5.
+
+----------------------------------
+NeverSink's itemfilter - version 6.65a/b - hotfix
+----------------------------------
+
+- Fixed the shaper/elder tiering algorithm that accidently skipped several expensive bases.
+
+----------------------------------
+NeverSink's itemfilter - version 6.65 - Economy Update #3 + Shaper/Elder tiering focus
+----------------------------------
+
+- Added a small prophecy tierlist. It currently only features T1 and T2 prophecies.
+
+- Improved and launched the Shaper/Elder tiering pipeline. The filter should be much more reliable (and strict) when it comes to shaper/elder tiering.
+
+- Adjusted the Unique and Divi cards tierlists
+
+- T1 Shaper/Elder items now make the Divine Orb tier noise, instead of the exalted orb noise. They get to keep the white background for now.
+
+- Elder Maps now correctly make the Divine Orb tier noise.
+
+- Improved the fossil tiering a tiny bit
+
+- Non-unique 6L body armors now only make the exalted orb noise if they're not corrupted. Corrupted body armours make the divine orb noise.
+
+- Slightly improved the highlighting of magic items with certain mod combinations
+
+- Overqualitied equipment items are now only highlighted at 29+ quality, since hillock can provide a 28% quality improvement (+ fossils).
+
+- Other minor adjustments.
+
+----------------------------------
+NeverSink's itemfilter - version 6.6 -  Economy Update #2 + Identified rare filtering
+----------------------------------
+
+- Added 30++ new rule-sets that cover different rare identified mod combination-groups for all itemslots. These will mostly affect zone level 78+ farming, especially if sextants are involved. All rules are very, very strict require rares to have quite some good mod combinations. Rules are performance-optimized and should not affect actual gameplay. Feedback is very welcome.
+
+- T16 maps now make the T2 sound (the same sound divine orbs, T2 uniques etc make), instead of the T1 sound
+
+- Retiered all uniques to better match the current economy
+
+- Retiered all divination cards to better match the current economy
+
+----------------------------------
+NeverSink's itemfilter - version 6.51 -  Betrayal Economy Update + Polishing
+----------------------------------
+
+- Unique Rings now have a special purpose border to identify their loreweave recipe usability (the teal border that veiled items, 5L, strong identified bases, incursion bases etc have). This currently has priority over the Fated unique highlight.
+
+- Retiered uniques. Many uniques have gone a rank down, due to the massive unique availability this leauge
+
+- Retiered cards. Many cards have changed their tier.
+
+- Retiered fossils.
+
+- Fixed some DisableDropSound inconsistencies
+
+- Intentionally did NOT change the scarab tiering yet. The meta is still evolving and I don't want to "snapshot/influence" it. Scarabs are still tiered by rank.
+
+- Vaal Orb and Engineer Orb have moved a tier up
+
+- Changed the map outleveling difference from 8 to 10 ( maps in the filter lose highlight, once they drop many levels above their tier - you don't care about T1's in T10s anymore, does not affect unque, shaped, elder or any maps above T9 )
+
+----------------------------------
+NeverSink's itemfilter - version 6.5 - The Betrayal Update (+ leveling overhaul)
+----------------------------------
+
+- Betrayal Scarabs have been added. For now they have 3 tiers (gilded, polished, rusted)
+
+- Veiled items have been added. They're highlighted with a cyan border and a special icon
+
+- Reworked large parts of the leveling section. The game is evolving to drop more and more gear and thus we have to take a stricter approach to a lot of things, such as crafting items. In general the leveling filter is more strict. The new leveling section should be familiar to every user of this filter... it's just much more refined.
+
+- Retiered all divination cards
+
+- Added the new divination cards
+
+- Retiered all uniques (lots of changes, because of all the leagues ending/returning/meta changes and buffs )
+
+- The new chancing bases on regular/semi-strict are now "Sadist Garb" "Glorious Plate" "Carved Wand" "Sapphire Flask" "Rawhide Tower Shield"
+
+- Did some minor changes to rare tiering
+
+- Did some retiering to the Shaper bases to decrease highlight of stat-stick bases
+
+- Changed the natural (white) item progression while leveling to not affect sceptres and wands. The progression is mostly used by starting attack-build and these items are mostly used for their caster properties
+
+- Made the items highlighted by the natural item progression less prominent
+
+- Reduced the highlight of all ilvl 83/84 crafting items significantly (non shaper/elder/atlas...).
+
+- The filtering of 83/84 crafting items is now stricter.
+
+- Reduced the highlight of all ilvl 86 crafting items significantly (non shaper/elder/atlas...)
+
+- The filtering of 86 crafting items is now stricter.
+
+- Disabled headhunter chancing entry, now that nemesis is gone again.
+
+- The SRS-Crude-Bow is now hidden on strict (instead of Very Strict)
+
+- UberStrict and UberPlusStrict are both hiding several additional niche cases and are more strict in general
+
+- The 20% gavel recipe is hidden on strict
+
+- Poor rare basetype trinkets (belts, rings, amulets) are now hidden on very strict (instead of UberStrict)
+
+- Good rare basetype trinkets (belts, rings, amulets) are now hidden on UberStrict (instead of UberPlusStrict). This does not affect atlas, shaper etc. bases.
+
+- Decreased the highlight on leveling hybrid flasks
+
+- The filter now relies on "MapTier" instead of "DropLevel"
+
+- Did some performance optimizations
+
+----------------------------------
+NeverSink's itemfilter - version 6.4 - Preparation, Shaper/Elder and FilterBlade update
+----------------------------------
+
+- Large number of changes on www.FilterBlade.xyz ( https://youtu.be/6FWBFKtevA8  )
+
+- Added an entirely new Shaper/Elder tiering system. This system relies on �guided automation� and is something I want to use a lot more in the future. Details can be found below.
+
+- Retiered all uniques
+
+- Retiered all divination cards
+
+- Retiered all fossils
+
+- Stacks of wisdom scrolls have a slightly stronger highlight
+
+- Increased the size of up-to-date life/mana flasks during leveling
+
+- Adjusted some sizes, highlights and strictnesses for the leveling phase. These changes are rather minor.
+
+- Further discriminated stave-users by removing magic/normal staves from the in-built progression editor. Use filterblade, if you intend to level with staves (you will still see rare staves).
+
+- Significantly more changes to leveling and to identified/rare item classification are to come for the Betrayal league start.
+
+- Some minor changes
+
+DETAILS ON NEW SHAPER/ELDER SECTION:
+
+1) Contains Multiple class/itemlevel layers that put down a fundament for solid filtering 
+
+2) Uses historized poe.ninja economy data, that is cleaned, processed and enriched through several data-mining algorithms to capture the current quirks of the economy. 
+
+3) Currently that process is still in beta, has redundancies, flaws and I actually still have to integrate the data by hand, but it�s way better than anything I�ve seen for that purpose already. 
+
+4) FilterBlade won�t have this shaper/elder auto-tiering algorithm available, until I�ve finetuned all the aspects and actually implement it online (likely 3.6)
+
+----------------------------------
+NeverSink's itemfilter - version 6.34 - Mid-League Economy and Polishing Update
+----------------------------------
+
+- Retiered all uniques
+
+- Retiered all divination cards
+
+- Fossils have received a new bottom tier. This tier currently contains 3 fossil: Abberant, Frigid, Scorched. These still have the highest fontsize, but don't have a beam and don't get a dropsound. These fossils are hidden on uber-plus-strict
+
+- 4-Slot resonators are now treated as a T0 drop: ex-sound, white background
+
+- The other resonators have a very chaotic economy. I've retiered them once again. Now: 1-3socket chaotic resonators have the Chaos orb-tier appearance. 1-3 socket Resonators have the Chromatic-Orb Tier appearance (same as before). 
+
+- The meta-crafting mod items in delves now no longer make sound, have less highlight and are hidden on very strict and upwards.
+
+- Penetrating Quivers added to the T2 rares
+
+- Minor changes.
+
+----------------------------------
+NeverSink's itemfilter - version 6.33 - Bestiary items, economy update and Minor Changes
+----------------------------------
+
+- Added highlight for the Bestiary mod items that drop in "Animalistic" Delve rooms in response to PoE's latest patch.
+
+- Updated the divination tierlists again.
+
+- Updated the unique tierlist again.
+
+- After a lot of requests: Chisel Recipe Hammers are (again) always highlighted on soft/regular.
+
+- Some minor filterblade stuff.
+
+----------------------------------
+NeverSink's itemfilter - version 6.32 - Economy and Delve Update - Digging Deeper
+----------------------------------
+
+- Added fossil tierlist. There's 3 tiers of fossils, all with sounds. You can check them out on www.filterblade.xyz -> customize -> delve -> fossils. All fossils will be shown on all strictnesses until the meta settles a bit more.
+
+- Added resonator tierlist. There's 3 tiers of resonators. As it turns out any 4-slot resonators and the 3-slot chaos resonators are worth something. The others  are basically worth ~0.2-0.4 chaos. So the lowest tier is currently highlighted like alchemy orbs. However, they'll be shown on all strictnesses until the meta settles a bit more. You can check them out on www.filterblade.xyz -> customize -> delve -> resonators.
+
+- Retiered all uniques. The unique economy is very volatile due to shaper fortresses, relic keys and delve drop-explosions.
+
+- Retiered all divination cards. The divinaiton economy is very volatile due to shaper fortresses, relic keys and delve drop-explosions.
+
+- Moved apprentice sextants into the chaos orb tier
+
+- Moved harbinger and ancient orbs into the divine orb tier.
+
+- Did some polishing work in regards to beams, mapicons and sounds.
+
+- Minor stuff.
+
+
+----------------------------------
+NeverSink's itemfilter - version 6.31 - Bugfixes and improvements
+----------------------------------
+
+- Added a special section for stacks of wisdom scrolls (such as the 20x wisdom scrolls that drop in delve)
+
+- The delve sometimes drops rings "of crafting" (random ring base with a "can have multiple craftings mods" mod). The magic version of those were not highlighted. Fixed that.
+
+- Divination Cards T4 now have a temporary beam as intended, instead of the permanent one.
+
+----------------------------------
+NeverSink's itemfilter - version 6.3 - The Beam n' Icon n' Streamersound and tons of delvestuff update
+----------------------------------
+
+- There's a LOT of changes on filterblade, so these will be covered by Tobnac in the comments (Filterblade supports: Sound preset, Custom sounds, Beams, Community Sounds, Icons, More Saves, optional basetypes... kill me we've been working on it for over a week)
+
+- The following streamer/community members were kind enough to provide soundpacks that can be enabled and changed on filterblade: Asuzara, Bex (Bloopers), Mathil, SlipperyJim, Veskara, Zizaran (either through **Overview->Presets->Sounds** or by changing sounds on the style or customizer screen). Note that you can alter the sounds as well. Be careful, some of the sound might be more silent. They're meant to be used in conjunction with icons.
+
+- Added icons to the filter. The general idea is that icons are used on items that you would turn around for on a well geared character. The icon color progression is white->yellow->red. Red items being the most expensive ones. Blue icons are used for items of unknown or possible value. Brown icons are just used for uniques.. because it looks better that way. Icons also scale size with value.
+
+- Added beams to the filter. The strategy is similar to icons, but I wanted to prevent beam-spam. So things that can drop in high quantities (such as divination cards from diviners), don't have beams or only come with temporary beams. You can one-click remove all beams on filterblade->style
+
+- Added a new style [GAIA] - Gaia is a bright, green style, with brownish undertones. It uses less colors and probably looks awesome in delve. This style is sponsored by my patreons as part of a stretch goal!
+
+- Added a new style [CUSTOMSOUNDS] - customsounds comes with 9 new sounds created by Veskara. These can be replaced with mp3's of your own choosing. NOTE THAT YOU HAVE TO COPY ALL OF THE SOUNDFILES INTO THE SAME DIRECTORY AS FILTER ( %userprofile%/Documents/My Games/Path of Exile ) FOR IT WORK. YOU CAN REPLACE THESE SOUNDS; BUT USE SOUNDS WITH THE SAME FORMAT (MP3), FORGETTING, RENAMING OR DELETING ANY OF THE EXISTING SOUNDS, WILL CAUSED THE FILTER TO NOT WORK.
+
+- Introduced a new sound for fairly valuable or potentially valuable items. It's the good old gong sound. This sound is used for T2, multibase uniques, divine orbs and some other stuff.
+
+- Retiered all uniques
+
+- Retiered all divination cards
+
+- Added the new divination cards
+
+- Changed the chancing bases
+
+- Added the new Relic Key. It looks like an exalted orb, there's even an extra safety section for it. If you haven't found one, it's because it's SUPER rare, please don't ask me if it's disabled on some strictness - it's not, it's always visible.
+
+- Added all the delve things (new mods, resonators, fossils)
+
+- Added a large experimental section for identified rare weapon filtering. I have more of these sections "piled" up, but I want to test this one first. This section is not yet customizable on filterblade
+
+- REMOVED the old style STREAMSOUND. It's now been made obsolete by the customsounds style.
+
+- Strictened up several sections of the filter. The leveling section is more strict. On top of that some minor changes have been done here and there 
+
+- Tons of improvements and adjustments all around the filter. Too much.
+
+- I'm tired
+
+----------------------------------
+NeverSink's itemfilter - version 6.20 Pre-Flashback League Update
+----------------------------------
+
+1) Updated rare tiering - Moved spelldamage shields up, hybrid armors down
+2) Added a new Currency divination card tier
+3) Multibase uniques are now split into league specific and multibase
+4) Entry for high quality rares (for the incursion room)
+5) Divination Card retiering
+6) Unique Retiering
+7) Crafting base font sizes have been improved. Some T2 ones were bigger than T1s
+8) Blessing of uul-netol tier down
+9) Added new Shaper/Elder rules for 86 helmets/boots/gloves
+
+----------------------------------
+NeverSink's itemfilter - version 6.10 - Mid-League update. Polished incursion integration. General improvements.
+----------------------------------
+
+This patch focuses on the smoothening out all the incursion related things. Incursion has been included in the existing color style (the "red" color is reserved for new leagues). I've added a tier list for vials, special highlight for magic/rare incursion mods (maps included) and a lot of polishing. This patch also addresses the sound issues that were introduced in 3.3 and adjusts the filter to match the crazy economy (180c chaos, 10c shavronne...)
+
+- Retiered all uniques. This is very tricky due to the highly volatile chaos price.
+
+- Retiered all divination cards to match the current economy. This is very tricky due to the highly volatile chaos price.
+
+- Removed the default dropsounds (the one given by GGG) Chaos/Alchemy-tier orbs and tier 1-10 and hidden maps. This has been done to remove the "Double Sound" that has been caused by GGG increasing the dropsound volume on these drops.
+
+- The following currencies are now hidden on Uber Strict (not only Uber-Plus-Strict): "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble"
+
+- Low breach splinters are no longer hidden on Uber-Plus-Strict. Instead they no longer make a sound upon dropping.
+
+- Split the Incursion-Vials into 2 tiers. Tier 1 and rest. Also added a safety entry in case new vials get added. 
+
+- Tier 1 vials are: "Vial of Awakening" "Vial of Sacrifice" "Vial of the Ghost". These cost between 50c and 35ex on ISC right now. They have the Exalted Orb appearance
+
+- Tier 2 vials are the remaining vials. They have the purple background of special purpose currency (such as Blessing, Prophecies etc). Added a failsave, so that new vials (in case GGG adds some) will still be shown.
+
+- Moved "Harbinger Orb", "Ancient Orb", "Apprentice Cartographer's Sextant" a tier up.
+
+- Moved  "Orb of Annulment" a tier down. I have no idea what to do with the "Divine Orb" in this league. It's staying in the ex-tier for now. I don't want to add an extra sound (sound polution is not a good idea and reduces recognition too) and it's "too big to get moved down" with a 20c price. Still a decent find.
+
+- Adjusted the T4 Vaal-Style divination card color to be red-ish, not blue.
+
+- "Vaal" maps found in the cartographer room in incursions (that have a 10% chance to drop items corrupted and thus usually yield 1-2 6-links every ~3 maps) now have the "special" teal border to indicate a "special purpose item". This rule has lower priority than level 11+ map rules.
+
+- The MAGIC incursion mod items have the teal "special purpose item".
+
+- The RARE incursion mod items now have the teal "special purpose item" and the good rare green item background.
+
+- White/Magic rustic sashes now get highlighted longer while leveling to help attack builds with crafting
+
+- Removed the DROPlevel requirement from identified, non-corrupted magic caster weapons with twin T1 mods.
+
+- Structure and performance improvements!
+
+----------------------------------
+NeverSink's itemfilter - version 6.02 - Incursion Polishing + Style Polishing + FilterBlade Features
+----------------------------------
+
+- Adjusted Divination cards and Unique tier lists to better match the POE economy
+
+- Adjusted some colors in all styles - this mostly affects the highlight of rare trinkets. They should match the style much better. Purple is now more purple (this is a buff)!
+
+- Low tier splinters now make a sound on Uber-Strict again and are no longer hidden on Uber-Plus-Strict.
+
+- Alteration tier currency (Chance, Chroms, Jewellers, Glassblower's) are now hidden on Uber-Strict
+
+FilterBlade improvements:
+
+- FilterBlade received a series of medium-sized fetures
+
+- Presets have been reworked and expanded. Added new presets (such as Chaos Recipe mode and Shaper Voice Line Mode)
+
+- The sliders in FilterBlade have undergone a glorious transformation and now support a "range mode", such as "Highlight Items Between Level 60 and 75". They also have been improved visually.
+
+- The plubming behind FilterBlade has been improved to better handle concurrent requests, even under pressure of 1000+ users.
+
+----------------------------------
+NeverSink's itemfilter - version 6.01 - Incursion Polishing + New Styles
+----------------------------------
+
+- Retiered divination cards and uniques. Tons of changes. You'll find the list in the comments.
+
+- Added 2 new Styles: Velvet and Vaal (Both are BETA-versions and might get changed, adjusted or removed)
+
+- Vaal is focused around brick, blood and brown colors. I recommend using at least strict++ with it.
+
+- Velvet is a... sideproduct I decided to keep. It has some purple, pink and greenish hues. Tell me what you think. I also need a better name? 
+
+- Removed some redundant lines
+
+- Reworked the gem highlighting a bit.
+
+- Slightly changed the new ring/amulet highlighting. It received positive feedback in general, but rings LVL 60-75 were using a wrong transparency value, which made them appaeared quite ugly. This is improved now.
+
+- Some filterblade improvements. We've added a section for loreweave and ILVL 85+ corruption uniques.
+
+----------------------------------
+NeverSink's itemfilter - version 6.0 - Crafting, Rares and Special Bases update
+----------------------------------
+
+These are the patchnotes for the 6.0 Version of the Filter - designed for the PoE 3.3 incursion league:
+
+INCURSION: Added Incursion Items, Incursion Vials, Incursion-Moded-Items. Added sounds. Good luck in the league. It promises to be a very lootintensive league based on the info so far, so I *HIGHLY* advise to use at LEAST semi-strict/strict once you hit maps.
+
+NEW STUFF: Divination cards, retiered uniques (tiered for fresh economy). Adjusted the rare item tierlist (a bit). Added gemlevel and stacksize filtering (for perandus coins for now). There's a ton of smaller changes, too much too list.
+
+BETTER LEVELING: I've adjusted the leveling sizes, colors and strictness and tightened up the strictness a bit in general. 
+
+EXPLICIT MOD FILTERING: Added explicit mod filtering for expensive magic item combinations (only affects identified items). Once I'll get more feedback, I'll also start working on designing an automated concept (needs a tool) to TRY to added rare identified item pricing. That'll happen in the coming month.
+
+STYLE REWORK: The whole filter style has been reworked. It's much more intuitive, simplistic and uses a "colorspace-concept". I'm low on time and will explain it in a video in the coming days. It should be very intuitive for all previous NS-filter users and be much easier to understand for new players as well. On top of that, it's much more minimalistic and clean. I hope you'll enjoy it. This is the core of 6.0.
+
+FONT SIZE NORMALIZATION: Font sizes are complicated topic. High font sizes tend to have a positive influence upon gameplay. You're much more efficient at spotting and grabbing items quickly. However, they also clutter your screen. On top of that using many low granularity difference font sizes gives a strong "messy" feeling. This update redefines the font sizes throughout the whole filter to find the best out of the 2 worlds.
+
+NEW STRICTNESS: [SOFT] Soft is more or less the old regular. As the game evolves, the amount and availability of loot and general speed also increases. Due to those developments, I can't recommend the regular filter anymore - not even to beginners or SSF. Incursion promises to be a HUGE loot-explosion league. The regular strictness will still show all currency, all rares, all chromatic recipe items, but won't be showing level 60-75 crafting items, blue jewellery anymore and will have stricter chisel/glassblower recipe filtering. People who still want to see those items are advised to use the new SOFT strictness or use www.filterblade.xyz to customize further.
+
+IMPORTANT STRICTNESS CHANGES:
+
+(small things not listed here, too many)
+
+-  **6 Sockets are now hidden on UBER-PLUS-STRICT.**
+- Magic Abyss Jewels 82+ are no longer hidden on UBER-PLUS-STRICT
+- All kind of white crafting items between ilvl 60 and 75 are now hidden on Regular+ (Onyx TwoStone and Diamond rings ilvl 75+ are still shown)
+- All Chisel Recipes have been made stricter. No quality gavels are hidden on Regular+. 15%+ qual are hidden on semistrict. 20%+ are hidden on strict.
+
+----------------------------------
+NeverSink's itemfilter - version 5.74
+----------------------------------
+
+- Adjusted the Divination and Unique tierlists to match the late-league beastiary economy (check comments for details)
+
+- "Strong Steel Net" is now a tier of it's own, "Simple Steel Net" "Reinforced Steel Net" have been moved to the leveling nets and share the apperance of the Iron nets
+
+- "Necromancer Net" is now never hidden (was hidden on uber-plus previously)
+
+- "Thaumaturgical Net" is now hidden on uber strict
+
+- "Strong Steel Net" is now hidden on very strict. 
+
+- All other nets are hidden on strict.
+
+- Small chromatic items in the endgame are now hidden on strict (down from Very Strict)
+
+- The leveling section of the filter has become more strict on on strict+. This mostly affects normal/magic items and 3/4-links
+
+----------------------------------
+NeverSink's itemfilter - version 5.73
+----------------------------------
+
+- Retiered Uniques (tons of uniques dropped in price)
+- Retiered Divination Cards (why is chaotic disposition worth 12-13c?!)
+- Annulment Orb has finally made it to T1, despite harbinger being an active league
+- The Necromancy nets now have the Alchemy Orb appearance/sound
+- Changed the appearance of silver coins to be a tad more purplish.
+- Marble/BluePearl amulets are now highlighted on all strictness versions, independent of their ItemLevel (previously low level marble amulets were hidden on higher strictnesses)
+- Added the gnarled branch to the fated uniques
+
+----------------------------------
+NeverSink's itemfilter - version 5.72
+----------------------------------
+
+- Colossal Tower Shields added to ilvl 86 T1 bases
+- Crystal/Vanguard belts added to Shaper/Elder T1 bases
+
+----------------------------------
+NeverSink's itemfilter - version 5.71
+----------------------------------
+
+- Imprints added for the beastiary recipe
+
+----------------------------------
+NeverSink's itemfilter - version 5.7 - Crafting, Rares and Special Bases update
+----------------------------------
+
+**Crafting/Special Bases:** The past leagues and expansions have made the access to high level item bases significantly easier, while decreasing their usefulness and adding new special bases and crafting types. This decreases their value and usefulness significantly. This filter update decreases their highlight in order to create a cleaner screen, represent this development and unify their colours to free up more color space for future leagues. (The following rules do NOT affect shaper/elder/leveling rules):
+
+- Introduced a new "Special Purpose base Color". It's more or less cyan and is used for abyss belts, atlas bases, warband bases, 5Ls, 3W offhand weapons, SRS Crude bows and other more or less non-frequent drops. It frees up a lot of color-space and serves as a precurser for the upcoming style update.
+- Split the ilvl 86 crafting bases (normal, magic, rare) into T1 and T2 bases (T1 bases are "Onyx Amulet" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Eternal Burgonet" "Lion Pelt")
+- Reduced the highlight of ILVL 84 and 86 bases (the yellow/orange is less bright)
+- Reduced the highlight of low level crafting bases
+- Semi-Strict no longer shows early map crafting rings/amulets/belts
+- Disabled the old identified helmets/boots warband entries. These have been made obsolete by shaper/elder bases. They can still be seen by showing hidden items and can still be enabled on filterblade
+- Slightly reduced the highlight of SRS crude bows
+
+**Rare items:** The meta now is *slightly* slower than usual (people tend to run higher maps and farm elder/shaper/guardians, instead of ONLY chaining shaped maps) and has more preference for armour/life items. On top of that the league doesn't have loot-explosion mechanics like abyss/breach. This allows adding a few additional (mostly small) rares to the T1 and T2 tiers. This change also slightly help with the alchemy orb shortage.
+
+- (T2->T1) "Corsair Sword" has made it into T1 rares. Congratulation Corsair sword
+- (T1->T2) "Colossal Tower Shield" "Cardinal Round Shield" "Sambar Sceptre" are going down from T1 to T2. Spectral Shield Poke was a flop, so their price is low. Ele damage sceptres are much more useful than pen sceptres due to the high RF player count. I'm not 100% convinced about the sambar change and will monitor the prices closely
+- (T2->T1) "Vaal Gauntlets" "Goliath Greaves"
+- (T3->T2) "Ancient Greaves" "Ancient Gauntlets" "Ezomyte Burgonet"
+- (T2->T1) I'm done arguing if Eternal or Royal Burgonet is the REAL T1 armour helmet, so they're both T1 now. 
+
+Shaper/Elder Items:  I'm iteratively getting to a well defined, well adjustable point that allows me to represent the peaks in the shaper/elder basetype versus itemlevel value chart. I've also added some more general adjustments:
+
+- Removed obsolete basetypes.
+- Working towards automating the process of identifying valuable shaper/elder bases by datamining the economy stream [work in progress, special thank you to the patreon supporters]
+- All rare Shaper/Elder items with a DropLevel (level requirement) of 62+ and an ItemLevel of 83+ are now treated as T2 elder/shaper items, have a darker background and make a (random unique item) dropsound.
+- All shaper/elder rings/amulets/belts now have a dropsound and the rare tiny-item-border (not only ilvl 75+ compared to earlier).
+
+Other Changes:
+
+- Maximized the Font Size of T6-T10 shaped maps (43->45)
+- Maximized the Font Size of non-tiered map fragments
+- Maximized the Font Size of Multi-Base uniques
+- Did some optimizations for high level atlas bases
+- Steel, Iron and Rope nets are hidden on VeryStrict and up (I apologize for the XBOX players who had no way of hiding these until now. )
+- Thaumturgical nets are hidden on UberStrict and up
+- Necromancy nets are hidden on UberPlusStrict
+- Xoph's Heart has been added to multi-base uniques. I honestly think that'll mostly just disappoint people, since ALL amber amulets dropped outside of a breach are anvils, yet I had to argue over this so often that I'm giving in. I really hope GGG will introduce an expensive amber amulet so that my conscience my rest in piece ( *the arguing included one person, who started a flamewar over it, didn't want to read the FAQ, that got him banned eventually, made **7** fake accounts ... proceeded flaming, flamed me per PM, got banned several times again. How the hell does Chris handle the fucking negativity, if people are already going CRAZY over a filter.* )
+- Fixed some meta Tags and Comments (had no affect on actual filtering)
+- Regular strictness shows Divine/Eternal Life and Mana flasks until ilvl 75 ( was 72 )
+
+----------------------------------
+NeverSink's itemfilter - version 5.64 - Tons of finetuning and improvements
+----------------------------------
+
+- Shaper and Elder item sections have been revamped. Updating these is very complicated, because of the changing trends and evolving economy. I tried a slightly different approach this time. It should better suit the beasty economy.
+- Divination cards retiered to better match the current economy
+- Uniques have been retiered to better match the current economy. This league's economy differs wildly from the previous league. I've added some more uniques to multi-base uniques (such as leath-belts) too.
+- Added the new "DisableDropSound" command to non-necromancy tier nets. This is not currently modifiable on filterblade
+- There have been some general changes to some colors in the filter. Silver coins now have a different appearnace. The appearance of nets has been changes a bit. Sextant tier currency now has a different look.
+- Font sizes have been adjusted throughout the whole filter
+- Normal rarity atlas bases are now less highlighted and hidden on strict+
+- There have been some minor changes regarding strictness and crafting bases
+- Rare item highlighting: There's an experimental rule to highlight rare T3/T4 4Linked Boots, Gloves and Helmets on low strictness versions. This should be quite useful during fresh league starts.
+- Rare item highlighting: Added an experimental rule to highlight not otherwise highlighted chromatic recipe candidate rares. This mostly affects semi-strict.
+- Added an exclusive rule for 5L6S items.
+- Abyss jewels now receive extra highlighting at level 82 (down from 84)
+- Annulment orbs are staying in the sextant section... for now. I'm keeping a close eye. (potentially the harbinger league availability is keeping their price lower)
+- Removed belly of the beast from the chancing items
+- Low priority crafting bases now have a more transparent background
+- T16 Elder Maps now make the tier1 sound similar to other T16 maps and have a slightly different appearance.
+- Changed the dropsound of non-top itemlevel Opal and Steel Rings
+
+----------------------------------
+NeverSink's itemfilter - version 5.63 - Necromancy nets and economy adjustments
+----------------------------------
+
+- Fixed necromancy net bug
+- Adjusted net apperance
+- Retiered all uniques to better match the economy
+- Retiered all divination cards to better match the economy
+
+----------------------------------
+NeverSink's itemfilter - version 5.62 - Economy adjustments
+----------------------------------
+
+- Necromancy nets added
+
+----------------------------------
+NeverSink's itemfilter - version 5.61 - Hotfix ELDER maps
+----------------------------------
+
+- Added rule for unanounced command "ElderMap" for Elder Maps.
+
+----------------------------------
+NeverSink's itemfilter - version 5.6 - Bestiary League!
+----------------------------------
+
+- Added nets to the lootfilter. There's 4 tier of nets (Rope, Iron, Steel, Thauma).
+- Added other new items to the filter (Elder and Beastiary Orbs)
+- Added new divination cards
+- Retiered uniques and divination cards. They represent a mix out of the economy from the start of the last league and the end of the last league (to highlight good early items and meta items both)
+- Retiered the shields in the rare tier list
+- Made semi-strict and strict a tiny bit stricter, when it comes to crafting bases.
+- Adjusted Abyss items dropsounds
+- Added back Leather Belt for Headhunter chancing. Other chancing bases were not changed.
+- Minor improvemets
+
+----------------------------------
+NeverSink's itemfilter - version 5.5 - Shaper/Elder Item Overhaul, Lateleague Economy Update.
+----------------------------------
+
+- Designed a new Shaper/Elder section! The new Section has been written after studying the economy (ASC-based) for several hours (please kill me). It's now split into Shaper/Elder subsections and features 3 tiers. Low tier (random) Shaper/Elder items no longer make a dropsound. Please note that you can't curently hide any Shaper/Elder items. This is a (rather strange) limitation by GGG. Feel free to make them transparent instead though on www.FilterBlade.xyz ;). Feedback extremely welcome.
+
+- Retiered all Divination cards. Several cards have been added to the T5 section (the "worst level" of divination cards)
+
+- Abyss Jewels: While useful abyss jewels are not strictly superior or better than "old" jewels. I've normalized their handling: No longer have any dropsounds. They also have the same appearance as "old" jewels. Itemlevel 84+ Abyss jewels still have a red border. Magic Abyss jewels are hidden on Very Strict and higher strictness versions.
+
+- Abyss Stygian Belts: Removed the dropsound of Stygian Vises below ItemLevel 86
+
+- Map Handling: The "map outleveling" feature has been adjusted. Maps (under Tier 10, non shaped/unique) are now outleveled, if their area level is 8 levels (up from 7) under the level of the monster that dropped them (yes it's complicated). This behaviour can be adjusted on www.FilterBlade.xyz
+
+- Map Handling: Uber-Plus-Strict no longer hides any low map tiers by default
+
+- Retiered all Uniques Items.
+
+----------------------------------
+NeverSink's itemfilter - version 5.43 - Fixes and minor improvements
+----------------------------------
+
+- Fixed the off by one error that caused T10 shaped maps to appear like T11 maps
+
+- Adjusted the divination card tier list
+
+- Fixed some minor highlighting mistakes (such as ILVL 86 random flasks getting highlighted)
+
+----------------------------------
+NeverSink's itemfilter - version 5.42 - Shaped Maps, ILVL 86 mods, economy, elder/shaper items
+----------------------------------
+
+First things first: This should fix all problems with Shaped Maps - I hope.
+
+This patch focuses on the following things: Shaper/Elder mods, new itemlevel 86 mods, problems with shaped maps, unique prices and divination card prices. It's quite critical and I recommend everyone to grab it. As usual: if you've done changes to the filter through FilterBlade, you can merge these changes into the latest update.
+
+Rare and crafting items have received new rulesets to handle ItemLevel 86 items. Atlas, Shaper/Elder and Stygian items were adjusted to have their top tier items focus on itemlevel 86. I've also added T2 shaper/elder items, with a slightly more saturated blue background, that have the itemlevel 80+. It seems that most itemslots have itemlevel 80.
+
+Keypoints: 
+
+- Adjusted the filter again to work well with the new ShapedMap mod introduced in 3.1. I hope that'll solve all remaining problems. The lootsimulator on FilterBlade currently generates shapedmaps of a higher level than it's supposed to - we'll sort it out soon.
+
+- Retiered all uniques, lots of items lost value (normal process for new leagues). You can find the exact changes in the comments. 
+
+- Retiered all divination cards
+
+- The leveling-only dropsound that indicates 4L drops no longer plays on semi-strict and higher
+
+- Expanded the shaper/elder highlight to consider itemlevels better. It seems that the current "itemlevels for shaper/elder mods" are 80/84/85. Adjusted the item highlight accordigly. 
+
+- Added highlight for itemlevel 86 items! It's all implemented but needs some polishing, that'll come with knowledge, over time.
+
+ - Fixed some minor bugs
+
+
+----------------------------------
+NeverSink's itemfilter - version 5.41 - Abyss League Hotfix and Improvements
+----------------------------------
+
+- The new features introduced by GGG: "ShapedMap True" is bugged in combination with "DropLevel". Implemented a temporary workaround. It's ugly and limits filterblade customizing
+
+- Retiered divination cards
+
+- Retiered uniques
+
+- Gave Stygian belts a green background
+
+----------------------------------
+NeverSink's itemfilter - version 5.4 - Abyss League Hype
+----------------------------------
+
+- Adjusted www.FilterBlade.xyz to work with all the new changes (maps, abyss jewels, shaper, elder items, new divination cards...)
+
+- Added some goodies to www.FilterBlade.xyz to the Customizer and Loot Simulator :)
+
+- Adjusted the Chancing tier list: "Ebony Tower Shield" (Tukohama's) "Glorious Plate" ("Kaom's Heart") "Gold Amulet" (Bisco's) "Rawhide Tower Shield" (Lycosidae - SPIDER SHIELD) "Sorcerer Boots" (Skyforth) "Full Wyrmscale" (Belly of the Beast)
+
+- Added Shaper/Elder Item Treatment - 2 tiers (One for interesting "shelder" Items (ilvl 84 great bases, atlas, stygians etc., top crafting bases) and one for "all other "shelder" items"). Shaper and elder items are treated the same for now ("shelder")
+
+- Added Abyss Jewel Treatment with extra rulesets for ILVL 84 abyss jewels
+
+- Added Stygian Vice belts with extra rulesets for 75+ rare stygs and 84+ stygians
+
+- Added all the new divination cards
+
+- Minor updates to the leveling section
+
+- Adjusted all map tiers to work with the new "ShapedMap" mod
+
+- Adjusted the crafting and T1/T2 rares to have a slightly higher focus on sceptres. Also did some minor adjustments, removed some T2 rares.
+
+- Retiered all Divination cards [NOTE: Economy data based upon mix from early Harbinger economy and some predictions, based on patch notes and experience from past leagues. I'll update the filter ASAP to reflect the real economy.]
+
+- Retiered all uniques [NOTE: Economy data based upon mix from early Harbinger economy and some predictions, based on patch notes and experience from past leagues. I'll update the filter ASAP to reflect the real economy.]
+
+- Gave annulment orb a more permanent place.
+
+- Several other small improvements
+
+----------------------------------
+NeverSink's itemfilter - version 5.3 - Further Levelling Optimizations! FilterBlade goodies: Filter Sharing/Cloud Storing, Customizer Improvements!
+----------------------------------
+
+- Fine-tuned the levelling section based upon user feedback and my HC Turmoil league experience!
+
+- 3-links are now more strict.
+
+- Reduced the number of magic trinkets later on.
+
+- Added ruby/topaz rings to the early high highlight rings sections (for the +1 caster recipes)
+
+- Early Life flasks are highlighted as good for one additional level
+
+- The levelling section shows less magic items now
+
+- T2 endgame trinkets are now correctly hidden on higher strictness versions.
+
+- Very slightly updated the divination cards and uniques (barely anything changed, economy is super stale)
+
+- Minor structure improvements
+
+**FilterBlade changelog:**
+
+- [**Save State Sharing!**][**Cloud Saving**] On the Save&Load screen, you can now publish your save on our server and also let others access it! We're going to add a "top subversion" table soon too! Streamers can use this to share their subversion ("normal" users can do the same).
+
+- [**Resource Minimizer**]: This should improve performance by A LOT! It also fixes a weird loading bugs where files were not loaded correctly.
+
+- [**Customizer Levelling Section Improvements**]: Simplified several settings and made everything much more intuitive and well explained.
+
+- Added the Item ReCreation tool below the loot simulator. use Ctr+C to copy an in-game item and paste it into the box to re-create it in filterBlade and directly edit the rule it's been matched by + see info about the rule and WHY it matched the item. great for cases where you ask yourself: "why does the filter highlight this item?" -> Ctrl+C -> paste -> "oh, it's a warband item, nice, let me quickly edit some of those colors, ..."
+
+*Notes about the server side saving: we don't care and don't collect any personal data (merely a footprint to prevent users from spamming saves). However, we do reserve the right to delete and analyze any save-states to find bugs in the system and to improve the website. You also don't technically *own* the saves. This section is highly experimental. If anything breaks let us now. You can still use the local save option too!*
+
+----------------------------------
+NeverSink's itemfilter - version 5.21 - Added dropsounds for 4-links while leveling!
+----------------------------------
+
+- Added dropsounds for 4-links while leveling :)
+
+----------------------------------
+NeverSink's itemfilter - version 5.2 - Racing Update, completely new levelling section, HUGE FilterBlade update
+----------------------------------
+
+**Filter changelog:**
+
+- COMPLETELY, entirely reworked the levelling section. It is now much more strict, has more prominent highlights. It took a lot of trial and error and feedback to get it a state, I was pleased in.
+
+- Added a leveling section specific dropsound.
+
+- Introduced a lot of flask-related changes. New Utility Flask Background color
+
+- Rebalance the sizes of a lot of items
+
+- Merged some redundant filter sections
+
+- Disabled some redundant sections
+
+- Completely retiered all uniques
+
+- Completely retiered all divination cards - several new cards added to the T5 layers
+
+- Retiered all rares. It now contains more high attack speed bases, more shields and has become more strict in a few other sections.
+
+- Chayula/Uul-Nethol Blessings now have their own appearance
+
+- Chayula splinters have a stronger highlight
+
+- Rebalanced the distribution of map fragments (Guardian fragments are now longer T1)
+
+- I probably forgot to list a lot of changes. I'm sleepy, but this is one of the largest updates so far.
+
+**FilterBlade changelog:**
+
+- [New Tiers]: You can now add new tiers into existing tierlists (example: Currency, Chancing Bases, ...)
+
+- [Improved Augmentations]: "Augmentations" - rules added by the user - now also support multi-rules. (e.g.: You can have multiple different "Highlight and Hide Rares" rulesets)
+
+- [Full Rare Item Coverage]: The customizer now detect all rare rules, including T3 and T4 settings.
+
+- [More Options]: Added tons of new options, tools and gadgets to play around with. It'
+s way too much to cover. I'm sure you'll discover some :). We tried covering all (sensible) requests.
+
+- [Performance Optimizations]: In short: It's. so. much. faster. Switched to cached async queries, improved the loading strategy, optimized queries and reduced algorithm complexity, refactored the autocomplete UI imlementation and did a ton of other performance improvements. Next update we're minimizing our assets.
+
+- We also updated the file requesting system. this should boost loading times if you access FilterBlade from e.g. South America (feedback appreciated since we obviously cant verify this outself)
+
+- [Filter Structure]: (Prototype) The advanced screen now maps the entire filter. It's not quite ready yet and doesn't use the existing save/load system yet. Tell us what you think.
+
+- [Armortype Filtering]: (Prototype) You can now highlight by item type, such as "ES armors".
+
+- (experimental) Save State Visualization. Display all changes in your current save-state in a list. Find it on the advanced screen
+
+- Tons of bug fixes! Most were very niche, but we addressed every known bug in our todo-list. We're sure you'll eventually find some new ones, feel free to post/mail those. (Note: those were minor things like "reset button sometimes doesn't work" or "something was laggy". We hotfix anything that affects the actual generated code or ingame aspects).
+
+- The performance improvements allowed us to replace all "simple" editors in the customizer (the ones without color pickers etc.) with the normal ones.
+
+- Added a ToolTip for TagList + Drag&Drop lists. It's quite handy for T1/T2 rares and leveling basetypes.
+
+- Added a "BaseType list" for dropLevel sliders to see the affected basetypes
+
+- Users can switch between screens using the following keys: A/D, left/right, 1-7.
+
+- Added 2 new functions to the Quick Functions and the Command Builder (Advanced) to increase/decrease font sizes by a flat value
+
+- The slider in the "Compact Overview Mode", now has fixed steps.
+
+- Extracted the Save/Load UI to a screen of it's own and moved the "Code" screen into "Advanced".
+
+- Updated the Overview screen a bit (also added a new box with explanation for rare color identifiers: border, background and text)
+
+- Improved the saveStates: now correctly updates info and deletes invalidated changes
+
+- Improved the invalidation system, added a method to keep appearance-related changes for smaller updates.
+
+- Fixed a bug in the loot simulator that caused items to be displayed incorrectly if they had 2 ItemLevel lines with different operators (such as "ItemLevel < 65" AND "ItemLevle > 5" in one rule). This did not affect anything ingame, yet it displayed some items that should've been hidden.
+
+- Implemented additional internal markers that tests filter syntax for invalid/"stupid" values.
+
+----------------------------------
+NeverSink's itemfilter - version 5.1.2 - Improvements, adjustments for the economy + major FilterBlade update
+----------------------------------
+
+**Filter changelog:**
+
+- Retiered all divination cards
+- Retiered all uniques
+- Did some further improvements to the way high level life and mana flasks are highlighted.
+- Retiered endgame crafting bases.
+- Minor polishing
+- Changed the way the endgame flask section interacted with the chance base section (chancing now has priority over flasks)
+- Fixed some bugs with the new rare item tiering system.
+- Other minor changes I probably forgot
+- Prepared a better way to generate style sheets for the future updates.
+
+**Filterblade changelog**:
+
+- updated filter to 5.1.1
+- fixed a bug that unintentinally loaded auto-saved changes when changing the filter
+- swapped sound 10 & 11 to match the game (GGG sneakily swapped them after releasing their video about them)
+- added more map options in the customizer
+- fixed a bug that was causing lags when removing basetypes. There are still some minor related bugs left, we'll sort them out over time.
+
+----------------------------------
+NeverSink's itemfilter - version 5.1.1 - Further improvements, meta adjustments, sound adjustments.
+----------------------------------
+
+- Due to ALL the new dropsounds introduced by GGG being bugged/silent/not audible, I've changed the map-sounds-scheme again. 
+- Changed the map drop sound for T11-T15 maps to PlayAlertSound 5 - you won't be missing this one.
+- Adjusted the chancing tier bases. The new meta-chancing bases are "Ebony Tower Shield" "Glorious Plate" "Sorcerer Boots" "Close Helmet" "Occultist's Vestment"
+- Once again readjusted the economy tiers
+- Removed the "Maelstr�m" staff, becausae it was causing encoding issues to some users. Replaced it with "Maelstr" instead.
+- Made the currency dropsound a bit more uniform.
+- Harbinger shards now make the normal currency dropsound (only if the expensive shards drop though: Harbinger/Anullment/Exalted/Ancient )
+- Fixed a small bug with flasks not being hidden
+- Added some missing comments
+
+**Filterblade changelog**:
+
+- updated filter to 5.1.1
+- fixed a bug that unintentinally loaded auto-saved changes when changing the filter
+- swapped sound 10 & 11 to match the game (GGG sneakily swapped them after releasing their video about them)
+- added more map options in the customizer
+- fixed a bug that was causing lags when removing basetypes. There are still some minor related bugs left, we'll sort them out over time.
+
+----------------------------------
+NeverSink's itemfilter - version 5.1 - Fixes and economy adjustments 
+----------------------------------
+
+-Removed the new shaper-announcer-sounds from the filter and returns the old dropsounds to exalts/mirrors/divines. The sounds were buggy and way too silent. I might make a new subversion with those if GGG fixes them, but for now I won't be using them. I've certainly learned my lesson, when it comes to using new tech
+- Wisdom scrolls now show again on semi-strict. I wasn't aware that so many people started right ahead with semi-strict. I apologize for not announcing this earlier.
+- T11-15 maps and harbinger shards get to keep the new sounds. They seem to work fine. I've remove them too if I'll get reports about them not working right.
+- Adjusted the sizes of T3/T4 rare items in the endgame. They now look slightly differently and are significantly larger. This affects the regular/semi-strict version. The low-strictness versions should feel much more "2.6"-y, when it comes to endgame rares.
+- Adjusted the strictness/tiering of some rares to match the meta more.
+- Divine/Eternal flasks are now shown for a longer time. They're now also visible in low tier maps on the regular/semi-strict version.
+- Made portal and wisdom scrolls sli
+ghtly smaller and changed their look a bit to better fit the filter style
+- Retiered and adjustment the appearance of harbinger shards to fit the filter style and their price better.
+- Readjusted the prices of all uniques/divination cards. Note that the economy is VERY volatile and you might wanna update again in 3-4 days, because a lot of prices are likely gonna change.
+- Increased the font size of divine vessels (also: added an explicit entry, because people keep spamming me about it. Just because you can't "ctrl+f" something, doesn't mean it's hidden, it was caught by class. Ancient Relic Key story all over again... )
+- Improved the map highlighting a tiny bit.
+
+----------------------------------
+NeverSink's itemfilter - version 5 - Fall of Oriath 
+----------------------------------
+
+- Reworked several parts of the filter
+- Completely reworked the rare section - it now has "only" 4 tiers, handpicked meta T1 items, handpicked meta T2 items, droplevel based T3 items and "other items" for each class (T4)
+- Removed the red ugly background from rares
+- The filter is much much more strict overall
+- The "very strict" strictness is now more restrictive than the old "uber strict" version
+- Added a new strictness: "UBER-PLUS-STRICT". It should be tight enough for whatever pinatas the league has to offer.
+- Did small improvements nad changes to the leveling algorithm, more coming in later versions. In general it's more strict, more selective
+- Increased the sizes of most items you'd generally pick up anyway. Most currency items are now size 40+ (this is a buff)
+- Added all the new harbinger stuff
+- Retiered the rares
+- Retiered the uniques
+- Didn't retier the divination cards - I'll do it once the meta stabilizes
+- Added a new section for the bone spirit shield for summoners
+- Added a new section for chayula splinters
+- Implemented a new dropsound for maps T11-T15
+- Implemented Shaper voice announcemnets for Mirrors, Divines and Exalted orbs
+- Lots of other minor changes, I forgot a lot probably o.O 
+
+- Did all possible adjustments to filterblade to support or even all of those changes.
+
+----------------------------------
+NeverSink's itemfilter - version 4.72 - Polishing 
+----------------------------------
+
+- Improved the atlas colors. T1 atlas bases under level 84 look better now.
+- Did some minor structure changes to the leveling section
+
+----------------------------------
+NeverSink's itemfilter - version 4.71 - Polishing 
+----------------------------------
+
+- Adjusted divination cards and unique tier lists
+- Reworked the quality flask section - it's now split into an endgame and a levelling part
+- Replaced all 198 occurances of "levelling" with "leveling". Yep.
+- Reworked the Atlas Section to be centralized at 1 spot.
+- Removed some minor redundancies
+- Fixed some minor style bugs
+
+----------------------------------
+NeverSink's itemfilter - version 4.7 - Bugfixing
+----------------------------------
+
+- Retiered all divination cards and uniques
+- [Silver Coin] and [Glassblower's Bauble] moved down to the Alteration/Chromatic/Jeweller/Chance orb tier, at least for the duration of legacy league.
+- [Scouring Orb] moved up a tier to the Chaos Orb tier, at least for the duration of legacy league.
+- Uber-Strict T4 Divination cards, no longer play a drop sound (experimental, tell me what you think - this includes cards such as gambler, her mask, emperor's luck and around ~50 others, with the value of <1C. You'll still see them, but no sound).
+- Uber-Strict normal, non-"good" ("Perandus" "Breach" "Nemesis" "Bloodline" "Beyond" "Onslaught" "Domination") no longer play a dropsound
+- Moved all sextants to a new temporary T1.5 tier, at least for the duration of legacy
+- Removed some redundant lines
+- Added "Beyond", "Domination" and "Onslaught" to the list of good leaguestones
+- Fixed a small bug that hid some Chromatic recipe items during levels 60-64 on semi-strict
+- The Uber-Strict version shows around ~50% less rares now.
+- Added a Red Background, white text entry for corrupted 6Ls (normal 6Ls remain white)
+- Added a bordercolore to tabula (it had the right background+sound, but the wrong border)
+
+----------------------------------
+NeverSink's itemfilter - version 4.63 - Bugfixing
+----------------------------------
+
+- Hotfixed a bug in 4.62, that didn't highlight rare 6-links correctly (it highlighted them as 6S, instead of 6L)
+- Moved emperor of purity a tier down
+- Removed the custom purple style currency color for now. I'll change it to something else later.
+
+----------------------------------
+NeverSink's itemfilter - version 4.62 - Polishing update, Purple/Necrotic style added, Filterblade teaser.
+----------------------------------
+
+- Added the purple (Necrotic) style. It includes all strictness subversions and is very breach/prophecy themed.
+- Some divination and unique tier list improvements
+- Increased the tier of Skean daggers
+- Shard/Scroll fragment visibility improved, to adjust the filter to the transmogrifying tempest
+- The Uber-Strict filter now hides, transmutations and blacksmith whetstones
+- Changed the ancient relic key color from green/white to orange/white. I somehow didn't include this change in the last update.
+
+----------------------------------
+NeverSink's itemfilter - version 4.6 - Legacy League - Major update
+----------------------------------
+
+Features:
+
+- Retiered and repriced all uniques.
+- Retiered divination cards and added 2 new cards to the tierlists
+- Adjusted the leveling section a lot. It now has better highlights for 4L, useful racing gear, some flasks, "brutus-killing-equip" etc.
+- Adjusted the chance bases
+- Completely reworte the map tier lists. The new map tier list shows low tier maps, and highlights them, WHEN you are in lowtier maps. Once you outlevel the map drops (7 levels difference between the droptier and the itemlevel) the map becomes "greyed out" and hidden on high strictness version of the lootfilter. The exceptions are maps of tier 10 or higher (never hidden) and all shaped maps.
+- Adjusted several colors, settings, lot's and lot's of finetuning
+- Gems with 14%+ qual are now more visible
+- Lot's of minor adjustments to the structure, that improve the performance and allow me to generate the filters easier.
+- Fixed the blue/slick styles, sometimes still having some "old" green backgrounds.
+- Added a new "streamsound" style, that has an alt. soundsscheme - it's designed for streamers and streamviewers to not get confused when the other side find a good item.
+- Adjusted the rare tierlist towards the upcoming economy
+- Adjusted the crafting bases towards the upcoming economy
+- Made the semi-strict filter more strict towards 2-handed and bulky bases. 
+- Some stylistic and performance improvements - updated my tools to use "tierlists" that group together different levels, basetypes, classes for easier editing
+
+----------------------------------
+NeverSink's itemfilter - version 4.5 new version, major meta and toolchain adjustments.
+----------------------------------
+
+- Refined **all** filters to match the meta/economy more
+- Adjusted the unique tier list
+- Renamed the filenames a tiny bit so that they're ordered correctly.
+- Added a new version: "Very Strict". It's about as strict as the old Uber-Strict, but fits the economy better. If you liked Uber-Strict before, you should probably stick to this version now.
+- The Uber-Strict filter is now even **more** strict (double-dips!) and only shows the meta-rares.
+- The strictness gap between Regular<->Semi-Strict has been increased a bit, while the one between Semi-Strict<->Strict decreased a bit.
+- Improved my mini-toolchain to allow quicker and more frequent updates
+- Adjusted font-sizes to be slightly more uniform
+
+Feature Balance:
+
+- Finetuned the T1-rares to match the meta. They're mostly consisting out of ES items.
+- Added the T1.5 rares. These rares are shown in every version, but will have a black background in the Uber-Strict version instead of green.
+- Finetuned the T2-rares to match the meta.
+- Finetuned the good/ok/bad rare balance. It's more strict in general.
+- Reworked the dagger tier lists (more high tier daggers shown)
+- Reworked the sceptre tier lists (Void and Sambar sceptre are now T2 bases)
+- Harbingers and spike-point quivers moved a tier down.
+- ILVL 84 Steel/Opal/Crystal belts now give off the T1 Drop sound
+- Refined the section handling rare Atlas bases
+- Chancing items now have priority over the regular crafting section. However, the 84+ crafting section still has priority over the chancing items
+- Removed Jewelled foil from the T1 crafting (and crafting rare) items to the T2 crafting items.
+- Fixed several minor bugs
+- Added 20% qual. shields/daggers to the 20% section
+- Removed a few redundant entries
+- Changed the default "Animated Weapon"-items appearance. The items are now way small, because most meta-AW builds rely on cast while channelling or totems.
+- Potential warband items and corrupted white amulets/belts (for "corrupted alchemy darkshrine" in labs) are not shown by default on the Very Strict and higher versions (still shown if you hold alt.)
+- Made the hidden items even smaller. (the ones you see while holding ALT)
+
+----------------------------------
+NeverSink's itemfilter - version 4.43 minor update
+----------------------------------
+
+- Added the divination cards to the tierlists
+- The regular filter now displays the two-stone/onyx/diamond trinkets starting with level 60.
+- Minor change to T2 currency visuals (still experimenting).
+
+----------------------------------
+NeverSink's itemfilter - version 4.42 economy/polishing update
+----------------------------------
+
+- Removed the Unique T2 Lapis Amulet from the tierlists.
+
+----------------------------------
+NeverSink's itemfilter - version 4.41 economy/polishing update
+----------------------------------
+
+- Due to popular request the priority chancing section is no longer hidden in the strict version (uberstrict still hides it)
+- Added the Spiraled Foils to the good rare items.
+
+
+----------------------------------
+NeverSink's itemfilter - version 4.4 economy/polishing update
+----------------------------------
+
+I've attempted to work with Poe.Ninja instead of Poe.Trade for the price checking of different uniques/divination cards. I initially like the results.
+
+CHANGES:
+
+- Retiered all divination cards to better fit the current economy
+- Retiered all uniques to better fit the current economy
+- Increased the itemsizes of several low-mid tier orbs to fit the breach pinatas and the clearspeed meta
+- Alterations, chance, jeweler and chromatic orbs now have more highlight ( https://imgur.com/a/0f1D6 )
+- Added all corrupted belts to the show-list (amulets already there).
+- You can now again click alt to check the ground for warband items (you don't need to do it in the T13/T15 maps)
+
+BUGFIXES: 
+
+- Fixed the highlight for finished "Breachstone" items. The official information is that they are "Map Fragments". They are not. This is client-side a bug. It's not major, but worth investigating to prevent future problems /u/GGG_Bex
+- ilvl75+ Spike point quivers now have the correct textcolor
+- ilvl75+ 6S armors now have the correct textcolor
+- Restructured a tiny bit - leather belts (for chancing) are now visible 
+
+----------------------------------
+NeverSink's itemfilter - version 4.31 minor bugfixes and improvements
+----------------------------------
+
+- Added leather belts to the chancing lists
+- Quality gems with less than 14 quality now have a border again (oops)
+- ilvl 50+ crudebows for SRS crafting now only get the green border if they're non-unique
+
+----------------------------------
+NeverSink's itemfilter - version 4.3 breach & architecture overhaul
+----------------------------------
+
+Special thanks to GGG and Bex&Jonathan in specific for forwarding and answering my questions about the filtering algorithm. You guys rock!
+
+STYLES:
+
+- The filter now supports styles!
+- Styles are alternative filters, with the same 4 strictness versions (regular, semi-strict...), but with different visuals
+- The Slick Filter - is now a whole style and has all 4 strictness versions!
+- Added new style: (BLUE) - same as regular, bad rares have a transparent background and good rares a blue one. First style to test the feature :)
+- The styles are located in folders, starting with (STYLE)
+
+CHANGES:
+
+- Added breach rings
+- Added breachstones, breach blessings (shouldn't those be curses, I mean those guys are kinda hellish), splinters
+- Added vaal breach with a little bit of extra highlight
+- Revamped the warband item section. 
+- ILVL 82 identified, noncorrupted boots and helmets and ILVL 84 sceptres, wands and daggers will be treated as warband items and will have a light purple border
+- Adjusted some colors
+- Made the filter a bit stricter
+- Reworked the crafting tier list - removed less demanded items, added foils
+- Moved rare foils up several tiers
+- Adjusted divination card tier list
+- Adjusted unique tier list
+- Removed dropsounds from lvl1 and 2 essences
+- Moved journeyman sextants up a tier
+
+STRUCTURE:
+
+- Completely reworked the filter structure - based on the official information provided by GGG_Jonathan
+- The new structure should be -significantly- faster. I suspect that the time needed to classify an endgame drop is 10 times smaller or even faster. This is a buff.
+- Added a polished table of contents, that is auto-updated, thanks to a little C# tool.
+- The filter syntax is a LOT more cleaner and commented now. The filter file has become a tiny bit larger, but this should not affect performance, since comments are not only parsed during the initial load (confirmed by GGG_Jonathan)
+- Added comments and descriptions to every visual identifier: those are autoupdated, thanks to the same tool.
+- The filter now supports alternative stylesheets (guess the tool). Those are located in folders called (STYLE) *stylename* and also have the 4 basic subversions (regular, semistrict, strict, uberstrict)
+- The stylesheets are also kept up to date and provide the filter with a different appearance.
+- For now only the "blue" stylesheet is added. More stylesheets coming soon.
+- The new filter structure is easier to edit for users and easier to maintain for me
+- Fixed several rare bugs
+
+STYLE:
+
+- Polished up the appearance of the filter thanks to the stylesheets. Removed or grouped similar colors, to provide a more uniform, polished appearance
+- Implemented the new warband items. Identified boots and helmets of the ilvl 82 and sceptres, daggers and wands of the ilvl 84 will now appear with a special border
+- Fix a few bugs.
+
+PS: The raw alpha version of my FilterPolish tool can be found on: https://github.com/NeverSinkDev/Filterpolish-Release
+
+----------------------------------
+NeverSink's itemfilter - version 4.24 minor update/bugfix
+----------------------------------
+
+- The uber-strict verison no longer hides vaal gems
+- The semi-strict and other versions now correctly display flasks while leveling
+- Readjusted the tier list a tiny bit
+- Fixed a bug in the filterpolish tool - the version number is now incremented correctly
+
+----------------------------------
+NeverSink's itemfilter - version 4.23 minor update/bugfix
+----------------------------------
+
+- The filter names now have a consistent name (no more version name in the file name) to enable better updating.
+- Fixed certain chromatic sizes not being hidden in the stricted filters.
+
+----------------------------------
+NeverSink's itemfilter - version 4.22 minor update/bugfix
+----------------------------------
+
+- Fixed the T16 map background. I accidently removed it.
+- Moved the judgement staff one tier down in the unique tier list
+
+----------------------------------
+NeverSink's itemfilter - version 4.21 minor update
+----------------------------------
+
+- Adjusted the version-generator to remove alertsounds if the item is hidden.
+- The royal burgonet is now the top-tier armor crafting base (GGG's helmets are confusing :D).
+- Added dropsounds to the new crafting bases (>79 or >75 if rare) and increased their fontsize
+- The dropsounds of lowlevel maps are a less loud
+
+----------------------------------
+NeverSink's itemfilter - version 4.2 (for POE 2.4/atlas POLISHING UPDATE)
+----------------------------------
+
+**GENERAL** :
+
+NOTE: The slick version is not updated in this version. Reason can be found below.
+
+I've finally finished a small tool that auto-generates non-regular versions for me, allowing me to update easier, safer, introduce better filtering mechanics (as seen in this update) into the non-regular versions and potentially have more versions.
+
+This update improves the filtering of the semi-strict/strict/UBERstrict a lotversions, reintroduces warband helmets markup (high level only, see below), adds a new block for highlighting selected 6S ilvl 84/83 items, slighlty improves the markup of maps and currency and fixes some bugs.
+
+The next update will enable me to have easy stylesheet and color-table generations, I'll update the slick version, once it's done.
+
+**Filterversions** :
+
+- **Regular** - displays all rares
+- **Semi-Strict** - hides all "*/bad rares" in the endgame and also all "clunky/ok" rares. Also hides clunky chromatic recipes, still shows gavels and a very small asortment of crafting trinkets (twostone, onyx, diamond)
+- **Strict** - hides all non-good and even the good/2h items that are not top-tier. Recommended for large parties and heavy magic find characters. NOT recommended for beginners.
+- **UBER-Strict** - [**NEW**] Crazy filtering level. You've been warned. It displays only the Creme de la Creme. Hides >90% rares, portals, wisdoms, armorers, agumentations, most recipes etc.
+- **Slick** - same as regular, however less colors.
+
+You can get more information and the filter itself:
+
+Or you can get the filter directely from my GITHUB
+
+If you want the notepad++ highlighting you can also find it on GITHUB
+
+**NOTE:** Currently there exists a bug, that causes some fonts to appear weird ("empty boxes", distance between letters distant or wrong letters). This bug is caused by the POE engine itself and is not related to the filter (it can happen with other filters or even without them in other game parts too). If this happens to you: restart the game and it should be all gone. Please stop E-Mailing me about it, there's sadly nothing I can do, since this is client-related. GGG is aware of the bug.
+
+----------------------------------
+CHANGELOG:
+----------------------------------
+
+**CONTENT:**
+
+- Added the UBER-strict version. You can find more details in the version description above.
+- The code is now even more tidy, displays correctly in NotePad and is easier to keep up-to-date.
+- Improved the filtering of the Semi-Strict version. It's a little bit more strict now
+- Improved the filtering of the Strict version. It now differs between top tier and other items (the other items have no green backgrounds)
+- The strict version now has a significantly smaller 83/84 crafting item list.
+- Added Kris to the crafting lists
+- Updated all versions to switch to non-leveling-mode at level 66. The dried lake is now a tiny bit cleaner. 
+- Added 4 cards to the "trash-tier" divination cards (hermit, king's blade, prosperity, metalsmith's gift). They no longer give off sounds. I apologize if this upsets the creaters of those cards.
+- Added new section that highlights selected ilvl 83/84 bases.
+- Added a section for redblade warband helmets. To see them, you have to click alt/F (or whatever the key to display hidden items is for you). Magic helmets (ilvl 80+) will get highlighted in a red hue. Note that this affects ALL helmets, no matter who dropped them. Only use this when fighting redblade warbands (beacon map). If you want to enable other warbands you can do it in the code manually
+
+**VISUAL:**
+
+- Changed up some item-sizes (maps mostly to distinguish different map tiers better)
+- Low maps have a weaker background
+- Mid-High currency (chaos, vaal, regret, GCP, regal and some special ones) have a slightly more orangish hue on drop. -  I'm considering reintroducing the GONG sound on those, feedback welcome.
+
+**SOUNDS:**
+
+- Guardian map fragments don't give off the high-tier-item sound anymore (they still have the white background). The drop is expected and takes away a bit excitement.
+
+**BUGFIXES:**
+
+- This and that. I programmed 7 hours straight today and totally forgot what else I did o_O
+
+----------------------------------
+SPECIAL THANKS:
+----------------------------------
+
+- GGG for the awesome game
+- Bex for the assistance and the patch notes
+- Chris for being awesome and answering questions about the item font corruption problem (note: it's not fixed)
+- Tobnac/Haggis for the constant help and support + support on the FilterBlade project (will be released during the next monthes)
+- My awesome stream viewers, who helped while I was updating the filter. A special thanks to the supporters.
+- C4pture for being C4pture
+- You
